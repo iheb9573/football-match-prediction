@@ -1,0 +1,8 @@
+This repository includes 5 major Europe leagues:
+
+English Premier League – https://datahub.io/core/english-premier-league
+Spanish La Liga – https://datahub.io/core/spanish-la-liga
+Italian Serie A – https://datahub.io/core/italian-serie-a
+German Bundesliga – https://datahub.io/core/german-bundesliga
+French Ligue 1 – https://datahub.io/core/french-ligue-1
+

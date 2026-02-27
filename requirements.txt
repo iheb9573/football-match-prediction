@@ -1,0 +1,12 @@
+﻿pandas>=2.2,<3
+numpy>=2.0,<3
+scikit-learn>=1.5
+matplotlib>=3.9
+seaborn>=0.13
+joblib>=1.4
+requests>=2.32
+beautifulsoup4>=4.12
+chardet>=5.2
+user_agent>=0.1.10
+fastapi>=0.115
+uvicorn>=0.32

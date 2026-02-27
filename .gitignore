@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (ne pas versionner les gros fichiers)
+data/raw/
+data/interim/
+data/processed/
+
+# Models / outputs
+reports/models/
+reports/figures/
+reports/football_bi/
+models/football_bi/
+data/raw/football_bi/
+data/processed/football_bi/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+football-datasets-main.zip
+football-datasets-main/football-datasets-main
+_references/
+~$*.pptx
+frontend/node_modules/
+frontend/dist/
+interface/**/node_modules/
+interface/**/.next/
+interface/**/out/
+interface/**/.env.local

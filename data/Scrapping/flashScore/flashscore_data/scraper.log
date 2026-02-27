@@ -1,0 +1,150 @@
+2026-02-27 00:46:08,543 [INFO] Downloading match results: premier_league
+2026-02-27 00:46:12,269 [INFO] Downloading match results: la_liga
+2026-02-27 00:46:15,987 [INFO] Downloading match results: serie_a
+2026-02-27 00:46:19,669 [INFO] Downloading match results: bundesliga
+2026-02-27 00:46:23,430 [INFO] Downloading match results: ligue_1
+2026-02-27 00:46:27,129 [INFO] ====== WebDriver manager ======
+2026-02-27 00:46:28,315 [INFO] Get LATEST chromedriver version for google-chrome
+2026-02-27 00:46:28,783 [INFO] Get LATEST chromedriver version for google-chrome
+2026-02-27 00:46:29,212 [INFO] There is no [win64] chromedriver "145.0.7632.117" for browser google-chrome "145.0.7632" in cache
+2026-02-27 00:46:29,212 [INFO] Get LATEST chromedriver version for google-chrome
+2026-02-27 00:46:30,195 [INFO] WebDriver version 145.0.7632.117 selected
+2026-02-27 00:46:30,204 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+2026-02-27 00:46:30,204 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+2026-02-27 00:46:30,632 [INFO] Driver downloading response is 200
+2026-02-27 00:46:34,162 [INFO] Get LATEST chromedriver version for google-chrome
+2026-02-27 00:46:34,727 [INFO] Driver has been saved in cache [C:\Users\21655\.wdm\drivers\chromedriver\win64\145.0.7632.117]
+2026-02-27 00:46:37,344 [INFO] 
+============================================================
+2026-02-27 00:46:37,345 [INFO] League: LA_LIGA  (10 teams)
+2026-02-27 00:46:37,347 [INFO] ============================================================
+2026-02-27 00:46:37,376 [INFO] 
+Team: Real Madrid
+2026-02-27 00:46:37,376 [INFO]   Squad page: https://www.flashscore.com/team/real-madrid/W8mj7MDD/squad/
+2026-02-27 00:46:59,635 [WARNING]   Timeout loading squad for real-madrid
+2026-02-27 00:46:59,665 [INFO] 
+Team: Barcelona
+2026-02-27 00:46:59,665 [INFO]   Squad page: https://www.flashscore.com/team/barcelona/rXVWxQ5q/squad/
+2026-02-27 00:47:26,342 [WARNING]   Timeout loading squad for barcelona
+2026-02-27 00:47:26,355 [INFO] 
+Team: Atletico Madrid
+2026-02-27 00:47:26,355 [INFO]   Squad page: https://www.flashscore.com/team/atletico-madrid/Wkgon0Bp/squad/
+2026-02-27 00:47:52,000 [WARNING]   Timeout loading squad for atletico-madrid
+2026-02-27 00:47:52,014 [INFO] 
+Team: Sevilla
+2026-02-27 00:47:52,014 [INFO]   Squad page: https://www.flashscore.com/team/sevilla/nfTqWQ3k/squad/
+2026-02-27 00:48:16,233 [WARNING]   Timeout loading squad for sevilla
+2026-02-27 00:48:16,249 [INFO] 
+Team: Real Sociedad
+2026-02-27 00:48:16,249 [INFO]   Squad page: https://www.flashscore.com/team/real-sociedad/QsHoLqNH/squad/
+2026-02-27 00:48:42,567 [WARNING]   Timeout loading squad for real-sociedad
+2026-02-27 00:48:42,579 [INFO] 
+Team: Villarreal
+2026-02-27 00:48:42,579 [INFO]   Squad page: https://www.flashscore.com/team/villarreal/W2bJpGbH/squad/
+2026-02-27 00:49:07,950 [WARNING]   Timeout loading squad for villarreal
+2026-02-27 00:49:07,963 [INFO] 
+Team: Athletic Club
+2026-02-27 00:49:07,963 [INFO]   Squad page: https://www.flashscore.com/team/athletic-club/EqKbHqXs/squad/
+2026-02-27 00:49:33,383 [WARNING]   Timeout loading squad for athletic-club
+2026-02-27 00:49:33,396 [INFO] 
+Team: Real Betis
+2026-02-27 00:49:33,396 [INFO]   Squad page: https://www.flashscore.com/team/real-betis/KjLhxmGo/squad/
+2026-02-27 00:49:57,575 [WARNING]   Timeout loading squad for real-betis
+2026-02-27 00:49:57,580 [INFO] 
+Team: Valencia
+2026-02-27 00:49:57,580 [INFO]   Squad page: https://www.flashscore.com/team/valencia/GEPZiXaM/squad/
+2026-02-27 00:50:22,851 [WARNING]   Timeout loading squad for valencia
+2026-02-27 00:50:22,860 [INFO] 
+Team: Osasuna
+2026-02-27 00:50:22,860 [INFO]   Squad page: https://www.flashscore.com/team/osasuna/QCbXJKgs/squad/
+2026-02-27 00:50:47,289 [WARNING]   Timeout loading squad for osasuna
+2026-02-27 00:50:47,299 [INFO] 
+============================================================
+2026-02-27 00:50:47,299 [INFO] League: PREMIER_LEAGUE  (10 teams)
+2026-02-27 00:50:47,300 [INFO] ============================================================
+2026-02-27 00:50:47,301 [INFO] 
+Team: Arsenal
+2026-02-27 00:50:47,301 [INFO]   Squad page: https://www.flashscore.com/team/arsenal/W8mj7MDD/squad/
+2026-02-27 00:51:11,790 [WARNING]   Timeout loading squad for arsenal
+2026-02-27 00:51:11,800 [INFO] 
+Team: Chelsea
+2026-02-27 00:51:11,800 [INFO]   Squad page: https://www.flashscore.com/team/chelsea/GbTVnKga/squad/
+2026-02-27 00:51:37,512 [WARNING]   Timeout loading squad for chelsea
+2026-02-27 00:51:37,521 [INFO] 
+Team: Liverpool
+2026-02-27 00:51:37,521 [INFO]   Squad page: https://www.flashscore.com/team/liverpool/YnoCHDBm/squad/
+2026-02-27 00:52:03,893 [WARNING]   Timeout loading squad for liverpool
+2026-02-27 00:52:03,898 [INFO] 
+Team: Manchester City
+2026-02-27 00:52:03,898 [INFO]   Squad page: https://www.flashscore.com/team/manchester-city/h0BuXXur/squad/
+2026-02-27 00:52:29,508 [WARNING]   Timeout loading squad for manchester-city
+2026-02-27 00:52:29,519 [INFO] 
+Team: Manchester United
+2026-02-27 00:52:29,519 [INFO]   Squad page: https://www.flashscore.com/team/manchester-united/bBfMo8GJ/squad/
+2026-02-27 00:52:54,318 [WARNING]   Timeout loading squad for manchester-united
+2026-02-27 00:52:54,327 [INFO] 
+Team: Tottenham
+2026-02-27 00:52:54,327 [INFO]   Squad page: https://www.flashscore.com/team/tottenham/dL1ej7XS/squad/
+2026-02-27 00:53:20,186 [WARNING]   Timeout loading squad for tottenham
+2026-02-27 00:53:20,191 [INFO] 
+Team: Newcastle
+2026-02-27 00:53:20,191 [INFO]   Squad page: https://www.flashscore.com/team/newcastle/YVmFmNZJ/squad/
+2026-02-27 00:53:44,681 [WARNING]   Timeout loading squad for newcastle
+2026-02-27 00:53:44,686 [INFO] 
+Team: Aston Villa
+2026-02-27 00:53:44,686 [INFO]   Squad page: https://www.flashscore.com/team/aston-villa/fGjG0Msf/squad/
+2026-02-27 00:54:09,201 [WARNING]   Timeout loading squad for aston-villa
+2026-02-27 00:54:09,207 [INFO] 
+Team: West Ham
+2026-02-27 00:54:09,208 [INFO]   Squad page: https://www.flashscore.com/team/west-ham/8pFI4eMT/squad/
+2026-02-27 00:54:34,314 [WARNING]   Timeout loading squad for west-ham
+2026-02-27 00:54:34,319 [INFO] 
+Team: Brighton
+2026-02-27 00:54:34,319 [INFO]   Squad page: https://www.flashscore.com/team/brighton/nhbzFe8e/squad/
+2026-02-27 00:55:00,071 [WARNING]   Timeout loading squad for brighton
+2026-02-27 00:55:02,497 [INFO] 
+Building ML feature dataset …
+2026-02-27 01:08:48,052 [INFO] Downloading match results: premier_league
+2026-02-27 01:08:52,111 [INFO] Downloading match results: la_liga
+2026-02-27 01:08:55,780 [INFO] Downloading match results: serie_a
+2026-02-27 01:08:59,428 [INFO] Downloading match results: bundesliga
+2026-02-27 01:09:03,076 [INFO] Downloading match results: ligue_1
+2026-02-27 01:09:06,830 [INFO] ====== WebDriver manager ======
+2026-02-27 01:09:08,635 [INFO] Get LATEST chromedriver version for google-chrome
+2026-02-27 01:09:09,117 [INFO] Get LATEST chromedriver version for google-chrome
+2026-02-27 01:09:09,565 [INFO] Driver [C:\Users\21655\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-27 01:09:11,496 [INFO] 
+============================================================
+2026-02-27 01:09:11,496 [INFO] League: PREMIER_LEAGUE  (10 teams)
+2026-02-27 01:09:11,497 [INFO] ============================================================
+2026-02-27 01:09:11,527 [INFO] 
+Team: Arsenal
+2026-02-27 01:09:11,527 [INFO]   Squad page: https://www.flashscore.com/team/arsenal/W8mj7MDD/squad/
+2026-02-27 01:09:36,513 [WARNING]   Timeout loading squad for arsenal
+2026-02-27 01:09:36,536 [INFO] 
+Team: Chelsea
+2026-02-27 01:09:36,536 [INFO]   Squad page: https://www.flashscore.com/team/chelsea/GbTVnKga/squad/
+2026-02-27 01:10:02,416 [WARNING]   Timeout loading squad for chelsea
+2026-02-27 01:10:02,420 [INFO] 
+Team: Liverpool
+2026-02-27 01:10:02,421 [INFO]   Squad page: https://www.flashscore.com/team/liverpool/YnoCHDBm/squad/
+2026-02-27 01:10:28,575 [WARNING]   Timeout loading squad for liverpool
+2026-02-27 01:10:28,587 [INFO] 
+Team: Manchester City
+2026-02-27 01:10:28,588 [INFO]   Squad page: https://www.flashscore.com/team/manchester-city/h0BuXXur/squad/
+2026-02-27 01:10:52,976 [WARNING]   Timeout loading squad for manchester-city
+2026-02-27 01:10:52,988 [INFO] 
+Team: Manchester United
+2026-02-27 01:10:52,989 [INFO]   Squad page: https://www.flashscore.com/team/manchester-united/bBfMo8GJ/squad/
+2026-02-27 01:11:19,164 [WARNING]   Timeout loading squad for manchester-united
+2026-02-27 01:11:19,176 [INFO] 
+Team: Tottenham
+2026-02-27 01:11:19,176 [INFO]   Squad page: https://www.flashscore.com/team/tottenham/dL1ej7XS/squad/
+2026-02-27 01:11:44,285 [WARNING]   Timeout loading squad for tottenham
+2026-02-27 01:11:44,297 [INFO] 
+Team: Newcastle
+2026-02-27 01:11:44,298 [INFO]   Squad page: https://www.flashscore.com/team/newcastle/YVmFmNZJ/squad/
+2026-02-27 01:12:08,964 [WARNING]   Timeout loading squad for newcastle
+2026-02-27 01:12:08,977 [INFO] 
+Team: Aston Villa
+2026-02-27 01:12:08,977 [INFO]   Squad page: https://www.flashscore.com/team/aston-villa/fGjG0Msf/squad/

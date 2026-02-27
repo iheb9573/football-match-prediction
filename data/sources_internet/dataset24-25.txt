@@ -1,0 +1,11 @@
+https://huggingface.co/datasets/tarekmasryo/football-matches-2025-dataset?utm_source=chatgpt.com
+
+
+https://huggingface.co/datasets/WideMan/football_matches?utm_source=chatgpt.com
+
+https://www.kaggle.com/datasets/amunsentom/football-matches-dataset-csv-format?utm_source=chatgpt.com
+
+https://www.kaggle.com/datasets/gokhanergul/football-match-statistics?utm_source=chatgpt.com
+
+https://github.com/datasets/football-datasets/tree/main
+

@@ -1,0 +1,22 @@
+{
+  "name": "Football BI Predictor",
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next@latest"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_API_URL": {
+      "description": "URL de votre API Python (ex: https://votre-api.com)",
+      "placeholder": "http://localhost:8000"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
