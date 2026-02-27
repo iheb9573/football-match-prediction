@@ -148,3 +148,144 @@ Team: Newcastle
 2026-02-27 01:12:08,977 [INFO] 
 Team: Aston Villa
 2026-02-27 01:12:08,977 [INFO]   Squad page: https://www.flashscore.com/team/aston-villa/fGjG0Msf/squad/
+2026-02-27 01:12:33,071 [WARNING]   Timeout loading squad for aston-villa
+2026-02-27 01:12:33,083 [INFO] 
+Team: West Ham
+2026-02-27 01:12:33,083 [INFO]   Squad page: https://www.flashscore.com/team/west-ham/8pFI4eMT/squad/
+2026-02-27 01:12:59,665 [WARNING]   Timeout loading squad for west-ham
+2026-02-27 01:12:59,678 [INFO] 
+Team: Brighton
+2026-02-27 01:12:59,678 [INFO]   Squad page: https://www.flashscore.com/team/brighton/nhbzFe8e/squad/
+2026-02-27 01:13:25,510 [WARNING]   Timeout loading squad for brighton
+2026-02-27 01:13:25,524 [INFO] 
+============================================================
+2026-02-27 01:13:25,524 [INFO] League: LA_LIGA  (10 teams)
+2026-02-27 01:13:25,525 [INFO] ============================================================
+2026-02-27 01:13:25,526 [INFO] 
+Team: Real Madrid
+2026-02-27 01:13:25,526 [INFO]   Squad page: https://www.flashscore.com/team/real-madrid/W8mj7MDD/squad/
+2026-02-27 01:13:48,844 [WARNING]   Timeout loading squad for real-madrid
+2026-02-27 01:13:48,858 [INFO] 
+Team: Barcelona
+2026-02-27 01:13:48,858 [INFO]   Squad page: https://www.flashscore.com/team/barcelona/rXVWxQ5q/squad/
+2026-02-27 01:14:14,044 [WARNING]   Timeout loading squad for barcelona
+2026-02-27 01:14:14,058 [INFO] 
+Team: Atletico Madrid
+2026-02-27 01:14:14,058 [INFO]   Squad page: https://www.flashscore.com/team/atletico-madrid/Wkgon0Bp/squad/
+2026-02-27 01:14:39,566 [WARNING]   Timeout loading squad for atletico-madrid
+2026-02-27 01:14:39,579 [INFO] 
+Team: Sevilla
+2026-02-27 01:14:39,579 [INFO]   Squad page: https://www.flashscore.com/team/sevilla/nfTqWQ3k/squad/
+2026-02-27 01:15:05,422 [WARNING]   Timeout loading squad for sevilla
+2026-02-27 01:15:05,436 [INFO] 
+Team: Real Sociedad
+2026-02-27 01:15:05,436 [INFO]   Squad page: https://www.flashscore.com/team/real-sociedad/QsHoLqNH/squad/
+2026-02-27 01:15:31,736 [WARNING]   Timeout loading squad for real-sociedad
+2026-02-27 01:15:31,742 [INFO] 
+Team: Villarreal
+2026-02-27 01:15:31,742 [INFO]   Squad page: https://www.flashscore.com/team/villarreal/W2bJpGbH/squad/
+2026-02-27 01:15:56,419 [WARNING]   Timeout loading squad for villarreal
+2026-02-27 01:15:56,424 [INFO] 
+Team: Athletic Club
+2026-02-27 01:15:56,424 [INFO]   Squad page: https://www.flashscore.com/team/athletic-club/EqKbHqXs/squad/
+2026-02-27 01:16:21,970 [WARNING]   Timeout loading squad for athletic-club
+2026-02-27 01:16:21,975 [INFO] 
+Team: Real Betis
+2026-02-27 01:16:21,975 [INFO]   Squad page: https://www.flashscore.com/team/real-betis/KjLhxmGo/squad/
+2026-02-27 01:16:47,989 [WARNING]   Timeout loading squad for real-betis
+2026-02-27 01:16:47,994 [INFO] 
+Team: Valencia
+2026-02-27 01:16:47,994 [INFO]   Squad page: https://www.flashscore.com/team/valencia/GEPZiXaM/squad/
+2026-02-27 01:17:14,303 [WARNING]   Timeout loading squad for valencia
+2026-02-27 01:17:14,308 [INFO] 
+Team: Osasuna
+2026-02-27 01:17:14,308 [INFO]   Squad page: https://www.flashscore.com/team/osasuna/QCbXJKgs/squad/
+2026-02-27 01:17:39,792 [WARNING]   Timeout loading squad for osasuna
+2026-02-27 01:17:39,798 [INFO] 
+============================================================
+2026-02-27 01:17:39,798 [INFO] League: SERIE_A  (10 teams)
+2026-02-27 01:17:39,799 [INFO] ============================================================
+2026-02-27 01:17:39,800 [INFO] 
+Team: Juventus
+2026-02-27 01:17:39,800 [INFO]   Squad page: https://www.flashscore.com/team/juventus/bBfLOmBJ/squad/
+2026-02-27 01:18:06,044 [WARNING]   Timeout loading squad for juventus
+2026-02-27 01:18:06,055 [INFO] 
+Team: AC Milan
+2026-02-27 01:18:06,055 [INFO]   Squad page: https://www.flashscore.com/team/ac-milan/YnoCHKBm/squad/
+2026-02-27 01:18:31,748 [WARNING]   Timeout loading squad for ac-milan
+2026-02-27 01:18:31,752 [INFO] 
+Team: Inter Milan
+2026-02-27 01:18:31,752 [INFO]   Squad page: https://www.flashscore.com/team/inter-milan/tW9fOarK/squad/
+2026-02-27 01:18:56,863 [WARNING]   Timeout loading squad for inter-milan
+2026-02-27 01:18:56,868 [INFO] 
+Team: Napoli
+2026-02-27 01:18:56,868 [INFO]   Squad page: https://www.flashscore.com/team/napoli/hLbXiGYT/squad/
+2026-02-27 01:19:22,655 [WARNING]   Timeout loading squad for napoli
+2026-02-27 01:19:22,665 [INFO] 
+Team: Roma
+2026-02-27 01:19:22,665 [INFO]   Squad page: https://www.flashscore.com/team/roma/GbKLnXCp/squad/
+2026-02-27 01:19:47,882 [WARNING]   Timeout loading squad for roma
+2026-02-27 01:19:47,891 [INFO] 
+Team: Lazio
+2026-02-27 01:19:47,891 [INFO]   Squad page: https://www.flashscore.com/team/lazio/bsZCxmJR/squad/
+2026-02-27 01:20:13,089 [WARNING]   Timeout loading squad for lazio
+2026-02-27 01:20:13,098 [INFO] 
+Team: Fiorentina
+2026-02-27 01:20:13,099 [INFO]   Squad page: https://www.flashscore.com/team/fiorentina/nKqLXHBm/squad/
+2026-02-27 01:20:38,108 [WARNING]   Timeout loading squad for fiorentina
+2026-02-27 01:20:38,117 [INFO] 
+Team: Atalanta
+2026-02-27 01:20:38,118 [INFO]   Squad page: https://www.flashscore.com/team/atalanta/YiLOzHBm/squad/
+2026-02-27 01:21:02,313 [WARNING]   Timeout loading squad for atalanta
+2026-02-27 01:21:02,390 [INFO] 
+Team: Torino
+2026-02-27 01:21:02,391 [INFO]   Squad page: https://www.flashscore.com/team/torino/mLbXiGZT/squad/
+2026-02-27 01:21:29,455 [WARNING]   Timeout loading squad for torino
+2026-02-27 01:21:29,474 [INFO] 
+Team: Bologna
+2026-02-27 01:21:29,474 [INFO]   Squad page: https://www.flashscore.com/team/bologna/KjLhxmGs/squad/
+2026-02-27 01:21:55,579 [WARNING]   Timeout loading squad for bologna
+2026-02-27 01:21:55,589 [INFO] 
+============================================================
+2026-02-27 01:21:55,589 [INFO] League: BUNDESLIGA  (10 teams)
+2026-02-27 01:21:55,590 [INFO] ============================================================
+2026-02-27 01:21:55,591 [INFO] 
+Team: Bayern Munich
+2026-02-27 01:21:55,591 [INFO]   Squad page: https://www.flashscore.com/team/bayern-munich/lIGBgO3h/squad/
+2026-02-27 01:22:21,462 [WARNING]   Timeout loading squad for bayern-munich
+2026-02-27 01:22:21,466 [INFO] 
+Team: Borussia Dortmund
+2026-02-27 01:22:21,466 [INFO]   Squad page: https://www.flashscore.com/team/borussia-dortmund/YVmFmNXJ/squad/
+2026-02-27 01:22:46,657 [WARNING]   Timeout loading squad for borussia-dortmund
+2026-02-27 01:22:46,661 [INFO] 
+Team: RB Leipzig
+2026-02-27 01:22:46,662 [INFO]   Squad page: https://www.flashscore.com/team/rb-leipzig/KjLhxmGb/squad/
+2026-02-27 01:23:12,405 [WARNING]   Timeout loading squad for rb-leipzig
+2026-02-27 01:23:12,410 [INFO] 
+Team: Bayer Leverkusen
+2026-02-27 01:23:12,410 [INFO]   Squad page: https://www.flashscore.com/team/bayer-leverkusen/WkgonsBp/squad/
+2026-02-27 01:23:13,072 [INFO] Telechargement matchs: premier_league
+2026-02-27 01:23:16,881 [INFO]   -> 380 matchs -> flashscore_data\matches_premier_league.csv
+2026-02-27 01:23:16,883 [INFO] Telechargement matchs: la_liga
+2026-02-27 01:23:20,593 [INFO]   -> 380 matchs -> flashscore_data\matches_la_liga.csv
+2026-02-27 01:23:20,593 [INFO] Telechargement matchs: serie_a
+2026-02-27 01:23:24,301 [INFO]   -> 306 matchs -> flashscore_data\matches_serie_a.csv
+2026-02-27 01:23:24,301 [INFO] Telechargement matchs: bundesliga
+2026-02-27 01:23:27,984 [INFO]   -> 306 matchs -> flashscore_data\matches_bundesliga.csv
+2026-02-27 01:23:27,996 [INFO] Telechargement matchs: ligue_1
+2026-02-27 01:23:31,784 [INFO]   -> 306 matchs -> flashscore_data\matches_ligue_1.csv
+2026-02-27 01:23:31,784 [INFO] ============================================================
+2026-02-27 01:23:31,785 [INFO] Ligue: LA_LIGA  (10 equipes)
+2026-02-27 01:23:31,787 [INFO] ============================================================
+2026-02-27 01:23:31,811 [INFO] Equipe: Real Madrid
+2026-02-27 01:23:31,811 [INFO]   Squad -> https://www.flashscore.com/team/real-madrid/W8mj7MDD/squad/
+2026-02-27 01:23:36,430 [INFO]   -> 39 joueurs trouves pour Real Madrid
+2026-02-27 01:23:36,823 [WARNING]   Timeout loading squad for bayer-leverkusen
+2026-02-27 01:23:36,828 [INFO] 
+Team: Eintracht Frankfurt
+2026-02-27 01:23:36,828 [INFO]   Squad page: https://www.flashscore.com/team/eintracht-frankfurt/GEPZiXqM/squad/
+2026-02-27 01:24:01,244 [WARNING]   Timeout loading squad for eintracht-frankfurt
+2026-02-27 01:24:01,248 [INFO] 
+Team: Wolfsburg
+2026-02-27 01:24:01,248 [INFO]   Squad page: https://www.flashscore.com/team/wolfsburg/tW9fOqrK/squad/
+2026-02-27 01:24:07,167 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None)': /session/9bcf4c93dacbbbd8fd50710178e147d1

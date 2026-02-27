@@ -77,3 +77,8 @@ ML Baseline
   depuis l'URL de chaque équipe : `flashscore.com/team/real-madrid/**W8mj7MDD**/squad/`
 - Ajoutez vos propres équipes dans le dictionnaire `TEAMS` du script.
 - Le **feature engineering** est facilement extensible (ELO, forme récente, etc.)
+
+
+## Flashscore scraper v2 :
+python flashscore_scraper_v2.py --leagues la_liga --train
+python flashscore_scraper_v2.py --leagues all --train
