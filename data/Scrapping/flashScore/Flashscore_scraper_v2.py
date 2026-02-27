@@ -188,7 +188,7 @@ def _get(url: str, retries: int = MAX_RETRIES) -> BeautifulSoup | None:
             time.sleep(random.uniform(WAIT_MIN, WAIT_MAX))
             resp = _SESSION.get(url, timeout=20)
             if resp.status_code == 200:
-                return BeautifulSoup(resp.text, "lxml")
+                return BeautifulSoup(resp.text, "html.parser")
             elif resp.status_code == 429:
                 wait = 15 * attempt
                 log.warning("Rate limited (429). Attente %ds ...", wait)
@@ -290,30 +290,34 @@ def scrape_player_profile(player_slug: str, player_id: str) -> dict:
     if h2:
         data["full_name"] = h2.get_text(strip=True)
 
-    # -- Analyser le texte brut de la page (structure simple sans classes specifiques)
-    page_text = soup.get_text(separator="\n")
-    lines = [l.strip() for l in page_text.splitlines() if l.strip()]
+    # -- Analyser le texte brut de la page en UN SEUL BLOC (pas ligne par ligne)
+    # re.search() sur tout le texte pour eviter les problemes de fragmentation
+    page_text = soup.get_text(separator=" ")
+    # Normaliser les espaces insecables et autres unicode
+    page_text = re.sub(r'[\u00a0\u200b\u2009\u202f]', ' ', page_text)
+    # Nettoyer espaces multiples
+    page_text = re.sub(r' {2,}', ' ', page_text)
 
-    for i, line in enumerate(lines):
-        # Position: "Defender" ou "Midfielder" ou "Forward" ou "Goalkeeper"
-        if re.match(r"^(Goalkeeper|Defender|Midfielder|Forward|Coach)$", line, re.I):
-            data["position"] = line
+    # Position
+    m = re.search(r'\b(Goalkeeper|Defender|Midfielder|Forward)\b', page_text)
+    if m:
+        data["position"] = m.group(1)
 
-        # Age: "Age: 33 (24.06.1992)"
-        m = re.match(r"Age:\s*(\d+)\s*\((\d{2}\.\d{2}\.\d{4})\)", line)
-        if m:
-            data["age"] = int(m.group(1))
-            data["date_of_birth"] = m.group(2)
+    # Age + Date de naissance: "Age: 33 (24.06.1992)"
+    m = re.search(r'Age:\s*(\d{1,3})\s*\(?\s*(\d{2}\.\d{2}\.\d{4})\s*\)?', page_text)
+    if m:
+        data["age"] = int(m.group(1))
+        data["date_of_birth"] = m.group(2)
 
-        # Market value: "Market value: €4.0m"
-        m = re.match(r"Market value:\s*(.+)", line)
-        if m:
-            data["market_value"] = m.group(1).strip()
+    # Market value: "Market value: €4.0m" ou "Market value: €500k"
+    m = re.search(r'Market value:\s*([€£$]?[\d\.]+[mMkK]?)', page_text)
+    if m:
+        data["market_value"] = m.group(1).strip()
 
-        # Contract expires: "Contract expires: 30.06.2026"
-        m = re.match(r"Contract expires:\s*(.+)", line)
-        if m:
-            data["contract_expires"] = m.group(1).strip()
+    # Contract expires: "Contract expires: 30.06.2026"
+    m = re.search(r'Contract expires:\s*(\d{2}\.\d{2}\.\d{4})', page_text)
+    if m:
+        data["contract_expires"] = m.group(1).strip()
 
     # -- Nationalite: cherche le lien vers /team/ d'une equipe nationale
     # Le breadcrumb contient le drapeau pays juste avant le nom du joueur
@@ -770,5 +774,3 @@ if __name__ == "__main__":
         size_kb = f.stat().st_size / 1024
         print(f"  {f.name:<45} {size_kb:8.1f} KB")
     print("=" * 60)
-
-    

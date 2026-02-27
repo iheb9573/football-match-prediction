@@ -25,7 +25,7 @@ mastantuono-franco,tpBPaidM,Franco Mastantuono,AR,Forward,,,,,(Real Madrid),Real
 mbappe-kylian,Wn6E2SED,Kylian Mbappe,FR,Forward,,,,,(Real Madrid),Real Madrid,la_liga
 rodrygo,zPUyR5Up,Rodrygo,BR,Forward,,,,,(Real Madrid),Real Madrid,la_liga
 vinicius-junior,CbwQ4Mws,Vinicius Junior,BR,Forward,,,,,(Real Madrid),Real Madrid,la_liga
-arbeloa-alvaro,CO9bjrLo,Alvaro Arbeloa,ES,Coach,,,,,(Real Madrid),Real Madrid,la_liga
+arbeloa-alvaro,CO9bjrLo,Alvaro Arbeloa,ES,,,,,,(Real Madrid),Real Madrid,la_liga
 lunin-andriy,0S7ye9jr,Andriy Lunin,UA,Goalkeeper,,,,,(Real Madrid),Real Madrid,la_liga
 moran-manuel-angel,67fjsJDM,Manuel Angel Moran Ibanez,ES,Midfielder,,,,,(Real Madrid),Real Madrid,la_liga
 perez-cesar,8d2U9MPp,Cesar Palacios,ES,Midfielder,,,,,(Real Madrid),Real Madrid,la_liga
@@ -38,107 +38,3 @@ martinez-joan,MgVkWvVa,Joan Martinez,ES,Defender,,,,,Real Madrid B,Real Madrid,l
 fortuny-pol,vyNXDEP1,Pol Fortuny,ES,Midfielder,,,,,(Real Madrid),Real Madrid,la_liga
 arnun-adrian,ET782Esj,Adrian Arnuncio,ES,Forward,,,,,(Real Madrid),Real Madrid,la_liga
 leiva-alvaro,KdNEDllH,Alvaro Leiva,ES,Forward,,,,,Real Madrid C,Real Madrid,la_liga
-garcia-joan,vuAlEqes,Joan Garcia,ES,Goalkeeper,,,,,(Barcelona),Barcelona,la_liga
-szczesny-wojciech,6NtwHZ7F,Wojciech Szczesny,PL,Goalkeeper,,,,,(Barcelona),Barcelona,la_liga
-araujo-ronald,M3sbJix9,Ronald Araujo,UY,Defender,,,,,(Barcelona),Barcelona,la_liga
-balde-alejandro,6c0CXHVM,Alejandro Balde,ES,Defender,,,,,(Barcelona),Barcelona,la_liga
-cancelo-joao,dAyeWYpm,Joao Cancelo,PT,Defender,,,,,(Barcelona),Barcelona,la_liga
-christensen-andreas,ShxiZhJI,Andreas Christensen,DK,Defender,,,,,(Barcelona),Barcelona,la_liga
-cubarsi-pau,UgTrNwCF,Pau Cubarsi,ES,Defender,,,,,(Barcelona),Barcelona,la_liga
-garcia-eric,AyxD3I5C,Eric Garcia,ES,Defender,,,,,(Barcelona),Barcelona,la_liga
-kounde-jules,v36QVRPu,Jules Kounde,FR,Defender,,,,,(Barcelona),Barcelona,la_liga
-martin-gerard,nBVu0v9a,Gerard Martin,ES,Defender,,,,,(Barcelona),Barcelona,la_liga
-torrents-jofre,S4LQUJ92,Jofre Torrents,ES,Defender,,,,,(Barcelona),Barcelona,la_liga
-bernal-marc,pf3IOiFD,Marc Bernal,ES,Midfielder,,,,,(Barcelona),Barcelona,la_liga
-casado-marc,tAhLmeJb,Marc Casado,ES,Midfielder,,,,,(Barcelona),Barcelona,la_liga
-fermin,2c2ipETG,Fermín,ES,Midfielder,,,,,(Barcelona),Barcelona,la_liga
-marques-tomas,6Do8lKsP,Tommy Marques,ES,Midfielder,,,,,(Barcelona B),Barcelona,la_liga
-olmo-dani,2oVBOlPg,Dani Olmo,ES,Midfielder,,,,,(Barcelona),Barcelona,la_liga
-pedri,baBG8QuI,Pedri,ES,Midfielder,,,,,(Barcelona),Barcelona,la_liga
-de-jong-frenkie,A1F3rz9c,Frenkie de Jong,NL,Midfielder,,,,,(Barcelona),Barcelona,la_liga
-bardagji-roony,YgzDTaqN,Roony Bardghji,SE,Forward,,,,,(Barcelona),Barcelona,la_liga
-fernandez-toni,lIEg6WRr,Toni Fernandez,ES,Forward,,,,,(Barcelona),Barcelona,la_liga
-lamine-yamal,lAt3vEub,Lamine Yamal,ES,Forward,,,,,(Barcelona),Barcelona,la_liga
-lewandowski-robert,MVC8zHZD,Robert Lewandowski,PL,Forward,,,,,(Barcelona),Barcelona,la_liga
-raphinha,xtBsDPam,Raphinha,BR,Forward,,,,,(Barcelona),Barcelona,la_liga
-rashford-marcus,COnT2Lh0,Marcus Rashford,EN,Forward,,,,,(Barcelona),Barcelona,la_liga
-torres-ferran,AVAVLaLt,Ferran Torres,ES,Forward,,,,,(Barcelona),Barcelona,la_liga
-flick-hans-dieter,OjfahOtr,Hansi Flick,DE,Coach,,,,,(Barcelona),Barcelona,la_liga
-aller-eder,EafOGkUN,Eder Aller,ES,Goalkeeper,,,,,(Barcelona),Barcelona,la_liga
-kochen-diego,8vu9Yb2n,Diego Kochen,US,Goalkeeper,,,,,(Barcelona),Barcelona,la_liga
-espart-xavi,WKtYvkb7,Xavi Espart,ES,Defender,,,,,(Barcelona),Barcelona,la_liga
-onstein-juwensley,xpYAyq4H,Juwensley Onstein,NL,Defender,,,,,(Barcelona),Barcelona,la_liga
-pacifico-patricio,82HpaXPH,Patricio Pacifico,UY,Defender,,,,,(Barcelona),Barcelona,la_liga
-hernandez-juan,vuXslbtL,Juan Hernandez,ES,Forward,,,,,(Barcelona),Barcelona,la_liga
-musso-juan,zB5O8dXn,Juan Musso,AR,Goalkeeper,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-oblak-jan,SYy8ZHN9,Jan Oblak,SI,Goalkeeper,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-gimenez-jose,IgRLzKhM,Jose Maria Gimenez,UY,Defender,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-hancko-david,zRTnwHe5,David Hancko,SK,Defender,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-le-normand-robin,8GVQFgH4,Robin Le Normand,ES,Defender,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-lenglet-clement,rH0mL7ws,Clement Lenglet,FR,Defender,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-llorente-marcos,z3D5zvbD,Marcos Llorente,ES,Defender,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-molina-nahuel,M3TzoLot,Nahuel Molina,AR,Defender,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-pubill-pages-marc,8EZ7QILP,Marc Pubill,ES,Defender,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-ruggeri-matteo,0WPEP3LT,Matteo Ruggeri,IT,Defender,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-barrios-pablo,AaZiGJ9E,Pablo Barrios,ES,Midfielder,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-johnny-cardoso,v5Xtt1xa,Johnny Cardoso,US,Midfielder,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-koke,v9hLv1xJ,Koke,ES,Midfielder,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-mendoza-rodrigo,YNiXFzek,Rodrigo Mendoza,ES,Midfielder,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-monserrate-jano,CUbLtjko,Jano Monserrate,ES,Midfielder,,,,,(Atl. Madrid U19),Atletico Madrid,la_liga
-vaargas-obed,YVRnyYz4,Obed Vargas,MX,Midfielder,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-almada-thiago,CSKGShgi,Thiago Almada,AR,Forward,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-alvarez-julian,bBHauDIC,Julian Alvarez,AR,Forward,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-baena-alex,bmeQTB92,Alex Baena,ES,Forward,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-gonzalez-nicolas-ivan,filNjPIq,Nicolas Gonzalez,AR,Forward,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-griezmann-antoine,OxCa1jdT,Antoine Griezmann,FR,Forward,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-lookman-ademola,8QK1SO5g,Ademola Lookman,NG,Forward,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-simeone-giuliano,IJTJu41i,Giuliano Simeone,AR,Forward,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-sorloth-alexander,QwqgNkTP,Alexander Sorloth,NO,Forward,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-simeone-diego,AZ18LjKN,Diego Simeone,AR,Coach,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-vivas-nelson,z5NOf2MN,Nelson Vivas,AR,Coach,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-esquivel-salvi,EFKT4ijH,Salvi Esquivel,ES,Goalkeeper,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-de-luis-mario,8jFlG2pA,Mario de Luis,ES,Goalkeeper,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-bonar-javier,CAvwpzCL,Javier Bonar,ES,Defender,,,,,(Atl. Madrid U19),Atletico Madrid,la_liga
-diaz-julio,I5QjPyym,Julio Diaz,ES,Defender,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-kostis-ilias,QTc0qeb2,Ilias Kostis,GR,Defender,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-martinez-daniel,6JSlzy9n,Dani Martinez,ES,Defender,,,,,(Atl. Madrid B),Atletico Madrid,la_liga
-puric-aleksa,pxnL1kvb,Aleksa Puric,RS,Defender,,,,,(Atl. Madrid B),Atletico Madrid,la_liga
-taufik-seidu,QyqjfgRE,Taufik Seidu,ES,Midfielder,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-serrano-javier,8CCR7W2Q,Javi Serrano,ES,Midfielder,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-belaid-rayane,nmTdpwec,Rayane Belaid,ES,Forward,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-esteban-sergio,zFzLdz6k,Sergio Esteban,ES,Forward,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-luque-iker,8ObCGQ0H,Iker Luque,ES,Forward,,,,,(Atl. Madrid),Atletico Madrid,la_liga
-luiz-junior,WShuFWRi,Luiz Junior,BR,Goalkeeper,,,,,(Villarreal),Villarreal,la_liga
-tenas-arnau,CnNoZhXr,Arnau Tenas,ES,Goalkeeper,,,,,(Villarreal),Villarreal,la_liga
-cardona-sergi,vVh7yy15,Sergi Cardona,ES,Defender,,,,,(Villarreal),Villarreal,la_liga
-foyth-juan,vcqiFPHQ,Juan Foyth,AR,Defender,,,,,(Villarreal),Villarreal,la_liga
-freeman-alexander,xxEtrKMD,Alex Freeman,US,Defender,,,,,(Villarreal),Villarreal,la_liga
-marin-rafa,KIwYY1AC,Rafa Marin,ES,Defender,,,,,(Villarreal),Villarreal,la_liga
-mourino-santiago,tQ4ufwYl,Santiago Mourino,UY,Defender,,,,,(Villarreal),Villarreal,la_liga
-navarro-pau,2cEjjwj9,Pau Navarro,ES,Defender,,,,,(Villarreal),Villarreal,la_liga
-alfonso-pedraza,KxSmFSum,Alfonso Pedraza,ES,Defender,,,,,(Villarreal),Villarreal,la_liga
-veiga-renato,r1cX4e0d,Renato Veiga,PT,Defender,,,,,(Villarreal),Villarreal,la_liga
-buchanan-tajon,G62SXlFI,Tajon Buchanan,CA,Midfielder,,,,,(Villarreal),Villarreal,la_liga
-comesana-santi,KK4TPIBj,Santi Comesana,ES,Midfielder,,,,,(Villarreal),Villarreal,la_liga
-gueye-pape,p6rsDQvN,Pape Gueye,SN,Midfielder,,,,,(Villarreal),Villarreal,la_liga
-macia-carlos,x04wuYLb,Carlos Macia,ES,Midfielder,,,,,(Villarreal),Villarreal,la_liga
-moleiro-alberto,b5g6gWjn,Alberto Moleiro,ES,Midfielder,,,,,(Villarreal),Villarreal,la_liga
-parejo-daniel,z7YvfLZ8,Dani Parejo,ES,Midfielder,,,,,(Villarreal),Villarreal,la_liga
-thomas,pMErKGnf,Thomas Partey,GH,Midfielder,,,,,(Villarreal),Villarreal,la_liga
-gonzalez-alfonso,IXim7pWh,Alfonso Gonzalez,ES,Forward,,,,,(Villarreal),Villarreal,la_liga
-lopez-hugo,E9ws6YLO,Hugo Lopez,ES,Forward,,,,,(Villarreal),Villarreal,la_liga
-mikautadze-georges,QgN9t9CH,Georges Mikautadze,GE,Forward,,,,,(Villarreal),Villarreal,la_liga
-moreno-gerard,UwfDD083,Gerard Moreno,ES,Forward,,,,,(Villarreal),Villarreal,la_liga
-tani-oluwaseyi,nLnBWjlN,Tanitoluwa Oluwaseyi,CA,Forward,,,,,(Villarreal),Villarreal,la_liga
-pepe-nicolas,j3Hk0qEj,Nicolas Pepe,CI,Forward,,,,,(Villarreal),Villarreal,la_liga
-perez-ayoze,jVHfHxGn,Ayoze Perez,ES,Forward,,,,,(Villarreal),Villarreal,la_liga
-marcelino,KdlyyNgc,Marcelino,ES,Coach,,,,,(Villarreal),Villarreal,la_liga
-conde-diego,GMOMNJbs,Diego Conde,ES,Goalkeeper,,,,,(Villarreal),Villarreal,la_liga
-budesca-daniel,C6MaElOi,Daniel Budesca,ES,Defender,,,,,(Villarreal),Villarreal,la_liga
-diatta-alassane,f77r4Y9d,Alassane Diatta,SN,Midfielder,,,,,(Villarreal),Villarreal,la_liga
-sierra-ismael,YuBYFmMs,Ismael Sierra,ES,Defender,,,,,(Villarreal),Villarreal,la_liga
-valou-jean,4lojRDSG,Jean Valou,CI,Defender,,,,,(Villarreal C),Villarreal,la_liga
-barry-mahamoud,2cnx09vj,Mahamoud Barry,ML,Midfielder,,,,,(Villarreal B),Villarreal,la_liga
-arguigue-ayman,hvwCqMdo,Ayman Arguigue Safsati,MA,Forward,,,,,(Villarreal),Villarreal,la_liga
-eto-o-pineda-etienne,YqyAyBrB,Etienne Eto'o,CM,Forward,,,,,(Villarreal),Villarreal,la_liga
-joselillo,xWU0yoK1,Joselillo Gaitan,ES,Forward,,,,,(Villarreal),Villarreal,la_liga

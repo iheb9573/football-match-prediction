@@ -200,3 +200,6 @@ Pour se rapprocher de 75%, il faut ajouter des donnees exogenes fortes:
 #C:\Users\21655>start brave 127.0.0.1:3000
 
 #C:\Users\21655>start brave 127.0.0.1:5173
+## lancer le scrapping 
+python flashscore_scraper_v2.py --leagues la_liga --train
+python flashscore_scraper_v2.py --leagues all --train
