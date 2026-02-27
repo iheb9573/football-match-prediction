@@ -1,1 +1,72 @@
 ﻿player_slug,player_id,full_name,nationality,position,date_of_birth,age,market_value,contract_expires,current_team,team_name,league
+courtois-thibaut,MVExOq3n,Thibaut Courtois,BE,Goalkeeper,,,,,(Real Madrid),Real Madrid,la_liga
+alaba-david,hKx3nCTp,David Alaba,AT,Defender,,,,,(Real Madrid),Real Madrid,la_liga
+alexander-arnold-trent,CEVJy6Bc,Trent Alexander-Arnold,EN,Defender,,,,,(Real Madrid),Real Madrid,la_liga
+asencio-raul,rPco96rl,Raul Asencio,ES,Defender,,,,,(Real Madrid),Real Madrid,la_liga
+carreras-alvaro,ALGEzlma,Alvaro Carreras,ES,Defender,,,,,(Real Madrid),Real Madrid,la_liga
+carvajal-daniel,rZh5FTHE,Daniel Carvajal,ES,Defender,,,,,(Real Madrid),Real Madrid,la_liga
+eder-militao,zX2Rm9YG,Eder Militao,BR,Defender,,,,,(Real Madrid),Real Madrid,la_liga
+fran-garcia,tURBbW9S,Fran Garcia,ES,Defender,,,,,(Real Madrid),Real Madrid,la_liga
+huijsen-dean,2V3qUZAd,Dean Huijsen,ES,Defender,,,,,(Real Madrid),Real Madrid,la_liga
+jimenez-david,6VlzPhd1,David Jimenez,ES,Defender,,,,,(Real Madrid),Real Madrid,la_liga
+mendy-ferland,KnytnSKl,Ferland Mendy,FR,Defender,,,,,(Real Madrid),Real Madrid,la_liga
+rudiger-antonio,rZHXvTho,Antonio Rudiger,DE,Defender,,,,,(Real Madrid),Real Madrid,la_liga
+victor-valdepenas,vqc9f0mJ,Victor Valdepenas,ES,Defender,,,,,(Real Madrid),Real Madrid,la_liga
+bellingham-jude,QNvlPm7s,Jude Bellingham,EN,Midfielder,,,,,(Real Madrid),Real Madrid,la_liga
+camavinga-eduardo,6ekYsPfO,Eduardo Camavinga,FR,Midfielder,,,,,(Real Madrid),Real Madrid,la_liga
+ceballos-dani,zPYmze7F,Dani Ceballos,ES,Midfielder,,,,,(Real Madrid),Real Madrid,la_liga
+cestero-sancho-jorge,YmPHScjk,Jorge Cestero Sancho,ES,Midfielder,,,,,(Real Madrid),Real Madrid,la_liga
+diaz-brahim,nm2Qvnyk,Brahim Diaz,MA,Midfielder,,,,,(Real Madrid),Real Madrid,la_liga
+guler-arda,CUU9qDpb,Arda Guler,TR,Midfielder,,,,,(Real Madrid),Real Madrid,la_liga
+tchouameni-aurelien,QkiZum3e,Aurelien Tchouameni,FR,Midfielder,,,,,(Real Madrid),Real Madrid,la_liga
+valverde-federico,nscfER6B,Federico Valverde,UY,Midfielder,,,,,(Real Madrid),Real Madrid,la_liga
+garcia-gonzalo,pWxyEyDA,Gonzalo Garcia,ES,Forward,,,,,(Real Madrid),Real Madrid,la_liga
+mastantuono-franco,tpBPaidM,Franco Mastantuono,AR,Forward,,,,,(Real Madrid),Real Madrid,la_liga
+mbappe-kylian,Wn6E2SED,Kylian Mbappe,FR,Forward,,,,,(Real Madrid),Real Madrid,la_liga
+rodrygo,zPUyR5Up,Rodrygo,BR,Forward,,,,,(Real Madrid),Real Madrid,la_liga
+vinicius-junior,CbwQ4Mws,Vinicius Junior,BR,Forward,,,,,(Real Madrid),Real Madrid,la_liga
+arbeloa-alvaro,CO9bjrLo,Alvaro Arbeloa,ES,Coach,,,,,(Real Madrid),Real Madrid,la_liga
+lunin-andriy,0S7ye9jr,Andriy Lunin,UA,Goalkeeper,,,,,(Real Madrid),Real Madrid,la_liga
+moran-manuel-angel,67fjsJDM,Manuel Angel Moran Ibanez,ES,Midfielder,,,,,(Real Madrid),Real Madrid,la_liga
+perez-cesar,8d2U9MPp,Cesar Palacios,ES,Midfielder,,,,,(Real Madrid),Real Madrid,la_liga
+pitarch-pinar-thiago,GQciGBE5,Thiago Pitarch,ES,Midfielder,,,,,(Real Madrid),Real Madrid,la_liga
+perez-francisco-javier-gonzalez,Is0aEgM6,Fran,ES,Goalkeeper,,,,,(Real Madrid),Real Madrid,la_liga
+mestre-sergio,0pOTEfAe,Sergio Mestre,ES,Goalkeeper,,,,,(Real Madrid),Real Madrid,la_liga
+navarro-jimenez-javier,QJTYO50T,Javier Navarro Jimenez,ES,Goalkeeper,,,,,(Real Madrid),Real Madrid,la_liga
+aguado-facio-diego,fuqfyKfc,Diego Aguado,ES,Defender,,,,,(Real Madrid),Real Madrid,la_liga
+martinez-joan,MgVkWvVa,Joan Martinez,ES,Defender,,,,,Real Madrid B,Real Madrid,la_liga
+fortuny-pol,vyNXDEP1,Pol Fortuny,ES,Midfielder,,,,,(Real Madrid),Real Madrid,la_liga
+arnun-adrian,ET782Esj,Adrian Arnuncio,ES,Forward,,,,,(Real Madrid),Real Madrid,la_liga
+leiva-alvaro,KdNEDllH,Alvaro Leiva,ES,Forward,,,,,Real Madrid C,Real Madrid,la_liga
+garcia-joan,vuAlEqes,Joan Garcia,ES,Goalkeeper,,,,,(Barcelona),Barcelona,la_liga
+szczesny-wojciech,6NtwHZ7F,Wojciech Szczesny,PL,Goalkeeper,,,,,(Barcelona),Barcelona,la_liga
+araujo-ronald,M3sbJix9,Ronald Araujo,UY,Defender,,,,,(Barcelona),Barcelona,la_liga
+balde-alejandro,6c0CXHVM,Alejandro Balde,ES,Defender,,,,,(Barcelona),Barcelona,la_liga
+cancelo-joao,dAyeWYpm,Joao Cancelo,PT,Defender,,,,,(Barcelona),Barcelona,la_liga
+christensen-andreas,ShxiZhJI,Andreas Christensen,DK,Defender,,,,,(Barcelona),Barcelona,la_liga
+cubarsi-pau,UgTrNwCF,Pau Cubarsi,ES,Defender,,,,,(Barcelona),Barcelona,la_liga
+garcia-eric,AyxD3I5C,Eric Garcia,ES,Defender,,,,,(Barcelona),Barcelona,la_liga
+kounde-jules,v36QVRPu,Jules Kounde,FR,Defender,,,,,(Barcelona),Barcelona,la_liga
+martin-gerard,nBVu0v9a,Gerard Martin,ES,Defender,,,,,(Barcelona),Barcelona,la_liga
+torrents-jofre,S4LQUJ92,Jofre Torrents,ES,Defender,,,,,(Barcelona),Barcelona,la_liga
+bernal-marc,pf3IOiFD,Marc Bernal,ES,Midfielder,,,,,(Barcelona),Barcelona,la_liga
+casado-marc,tAhLmeJb,Marc Casado,ES,Midfielder,,,,,(Barcelona),Barcelona,la_liga
+fermin,2c2ipETG,Fermín,ES,Midfielder,,,,,(Barcelona),Barcelona,la_liga
+marques-tomas,6Do8lKsP,Tommy Marques,ES,Midfielder,,,,,(Barcelona B),Barcelona,la_liga
+olmo-dani,2oVBOlPg,Dani Olmo,ES,Midfielder,,,,,(Barcelona),Barcelona,la_liga
+pedri,baBG8QuI,Pedri,ES,Midfielder,,,,,(Barcelona),Barcelona,la_liga
+de-jong-frenkie,A1F3rz9c,Frenkie de Jong,NL,Midfielder,,,,,(Barcelona),Barcelona,la_liga
+bardagji-roony,YgzDTaqN,Roony Bardghji,SE,Forward,,,,,(Barcelona),Barcelona,la_liga
+fernandez-toni,lIEg6WRr,Toni Fernandez,ES,Forward,,,,,(Barcelona),Barcelona,la_liga
+lamine-yamal,lAt3vEub,Lamine Yamal,ES,Forward,,,,,(Barcelona),Barcelona,la_liga
+lewandowski-robert,MVC8zHZD,Robert Lewandowski,PL,Forward,,,,,(Barcelona),Barcelona,la_liga
+raphinha,xtBsDPam,Raphinha,BR,Forward,,,,,(Barcelona),Barcelona,la_liga
+rashford-marcus,COnT2Lh0,Marcus Rashford,EN,Forward,,,,,(Barcelona),Barcelona,la_liga
+torres-ferran,AVAVLaLt,Ferran Torres,ES,Forward,,,,,(Barcelona),Barcelona,la_liga
+flick-hans-dieter,OjfahOtr,Hansi Flick,DE,Coach,,,,,(Barcelona),Barcelona,la_liga
+aller-eder,EafOGkUN,Eder Aller,ES,Goalkeeper,,,,,(Barcelona),Barcelona,la_liga
+kochen-diego,8vu9Yb2n,Diego Kochen,US,Goalkeeper,,,,,(Barcelona),Barcelona,la_liga
+espart-xavi,WKtYvkb7,Xavi Espart,ES,Defender,,,,,(Barcelona),Barcelona,la_liga
+onstein-juwensley,xpYAyq4H,Juwensley Onstein,NL,Defender,,,,,(Barcelona),Barcelona,la_liga
+pacifico-patricio,82HpaXPH,Patricio Pacifico,UY,Defender,,,,,(Barcelona),Barcelona,la_liga
+hernandez-juan,vuXslbtL,Juan Hernandez,ES,Forward,,,,,(Barcelona),Barcelona,la_liga

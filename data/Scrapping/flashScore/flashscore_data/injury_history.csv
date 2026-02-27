@@ -1,1 +1,762 @@
 ﻿player_slug,player_id,date_from,date_to,injury_type
+courtois-thibaut,MVExOq3n,13.01.2026,15.01.2026,Rest
+courtois-thibaut,MVExOq3n,25.11.2025,28.11.2025,Illness
+courtois-thibaut,MVExOq3n,10.11.2025,21.11.2025,Muscle Injury
+courtois-thibaut,MVExOq3n,16.03.2025,07.04.2025,Muscle Injury
+courtois-thibaut,MVExOq3n,08.03.2025,10.03.2025,Rest
+courtois-thibaut,MVExOq3n,25.02.2025,27.02.2025,Rest
+courtois-thibaut,MVExOq3n,04.02.2025,06.02.2025,Rest
+courtois-thibaut,MVExOq3n,15.01.2025,17.01.2025,Rest
+courtois-thibaut,MVExOq3n,05.01.2025,07.01.2025,Rest
+courtois-thibaut,MVExOq3n,23.10.2024,22.11.2024,Muscle Injury
+courtois-thibaut,MVExOq3n,30.09.2024,17.10.2024,Muscle Injury
+courtois-thibaut,MVExOq3n,10.08.2023,29.04.2024,Knee Injury
+courtois-thibaut,MVExOq3n,18.05.2023,20.05.2023,Muscle Injury
+courtois-thibaut,MVExOq3n,25.04.2023,28.04.2023,Illness
+courtois-thibaut,MVExOq3n,25.03.2023,31.03.2023,Muscle Injury
+courtois-thibaut,MVExOq3n,05.02.2023,17.02.2023,Leg Injury
+courtois-thibaut,MVExOq3n,01.01.2023,06.01.2023,Injury
+courtois-thibaut,MVExOq3n,02.10.2022,21.10.2022,Muscle Injury
+courtois-thibaut,MVExOq3n,31.05.2022,23.07.2022,Muscle Injury
+courtois-thibaut,MVExOq3n,13.05.2022,16.05.2022,Rest
+courtois-thibaut,MVExOq3n,10.05.2022,11.05.2022,Abdominal strain
+courtois-thibaut,MVExOq3n,19.01.2022,20.01.2022,Rest
+courtois-thibaut,MVExOq3n,29.12.2021,01.01.2022,Illness
+courtois-thibaut,MVExOq3n,02.12.2020,04.12.2020,Muscle Injury
+courtois-thibaut,MVExOq3n,08.10.2020,15.10.2020,Injury
+courtois-thibaut,MVExOq3n,09.03.2020,11.06.2020,Groin Injury
+courtois-thibaut,MVExOq3n,02.10.2019,09.10.2019,Illness
+courtois-thibaut,MVExOq3n,29.03.2019,24.04.2019,Thigh Injury
+courtois-thibaut,MVExOq3n,07.01.2019,18.01.2019,Hip Injury
+courtois-thibaut,MVExOq3n,09.05.2018,12.05.2018,Back Injury
+courtois-thibaut,MVExOq3n,18.03.2018,07.04.2018,Thigh Injury
+courtois-thibaut,MVExOq3n,19.01.2018,30.01.2018,Ankle Injury
+courtois-thibaut,MVExOq3n,24.09.2017,25.09.2017,Head Injury
+courtois-thibaut,MVExOq3n,16.04.2017,21.04.2017,Muscle Injury
+courtois-thibaut,MVExOq3n,20.02.2017,25.02.2017,Illness
+courtois-thibaut,MVExOq3n,12.05.2016,14.05.2016,Illness
+alaba-david,hKx3nCTp,19.11.2025,19.12.2025,Muscle Injury
+alaba-david,hKx3nCTp,20.10.2025,08.11.2025,Foot Injury
+alaba-david,hKx3nCTp,29.04.2025,11.08.2025,Knee Injury
+alaba-david,hKx3nCTp,24.04.2025,24.04.2025,Muscle Injury
+alaba-david,hKx3nCTp,09.04.2025,12.04.2025,Overload
+alaba-david,hKx3nCTp,04.02.2025,16.02.2025,Muscle Injury
+alaba-david,hKx3nCTp,13.01.2025,18.01.2025,Knee Injury
+alaba-david,hKx3nCTp,07.01.2024,06.01.2025,Knee Injury
+alaba-david,hKx3nCTp,28.09.2023,18.10.2023,Muscle Injury
+alaba-david,hKx3nCTp,19.04.2023,15.05.2023,Injury
+alaba-david,hKx3nCTp,09.04.2023,11.04.2023,Muscle Injury
+alaba-david,hKx3nCTp,22.02.2023,26.03.2023,Muscle Injury
+alaba-david,hKx3nCTp,08.01.2023,03.02.2023,Calf Injury
+alaba-david,hKx3nCTp,11.06.2022,12.06.2022,Muscle Injury
+alaba-david,hKx3nCTp,07.05.2022,26.05.2022,Muscle Injury
+alaba-david,hKx3nCTp,28.04.2022,03.05.2022,Groin Injury
+alaba-david,hKx3nCTp,21.04.2022,25.04.2022,Thigh Injury
+alaba-david,hKx3nCTp,25.02.2022,04.03.2022,Muscle Injury
+alaba-david,hKx3nCTp,14.01.2022,15.01.2022,Muscle Injury
+alaba-david,hKx3nCTp,24.12.2021,31.12.2021,Knee Injury
+alaba-david,hKx3nCTp,21.12.2021,23.12.2021,Illness
+alaba-david,hKx3nCTp,25.11.2021,27.11.2021,Knee Injury
+alaba-david,hKx3nCTp,13.10.2021,18.10.2021,Knee Injury
+alaba-david,hKx3nCTp,26.09.2021,27.09.2021,Injury
+alaba-david,hKx3nCTp,08.09.2021,13.09.2021,Injury
+alaba-david,hKx3nCTp,28.07.2021,07.08.2021,Illness
+alaba-david,hKx3nCTp,07.03.2021,16.03.2021,Muscle Injury
+alaba-david,hKx3nCTp,28.09.2020,29.09.2020,Muscle Injury
+alaba-david,hKx3nCTp,24.08.2020,17.09.2020,Groin Injury
+alaba-david,hKx3nCTp,17.06.2020,26.06.2020,Ankle Injury
+alaba-david,hKx3nCTp,08.12.2019,13.12.2019,Hip Injury
+alaba-david,hKx3nCTp,02.10.2019,18.10.2019,Broken rib
+alaba-david,hKx3nCTp,15.09.2019,27.09.2019,Thigh Injury
+alaba-david,hKx3nCTp,22.03.2019,05.04.2019,Thigh Injury
+alaba-david,hKx3nCTp,14.03.2019,16.03.2019,Injury
+alaba-david,hKx3nCTp,24.02.2019,12.03.2019,Tendon Injury
+alaba-david,hKx3nCTp,21.10.2018,22.10.2018,Injury
+alaba-david,hKx3nCTp,07.10.2018,19.10.2018,Muscle Injury
+alaba-david,hKx3nCTp,13.08.2018,23.08.2018,Knee Injury
+alaba-david,hKx3nCTp,06.05.2018,18.05.2018,Back Injury
+alaba-david,hKx3nCTp,20.04.2018,30.04.2018,Thigh Injury
+alaba-david,hKx3nCTp,02.04.2018,13.04.2018,Back Injury
+alaba-david,hKx3nCTp,19.01.2018,23.01.2018,Illness
+alaba-david,hKx3nCTp,19.11.2017,01.12.2017,Muscle Injury
+alaba-david,hKx3nCTp,03.10.2017,11.10.2017,Ankle Injury
+alaba-david,hKx3nCTp,06.09.2017,26.09.2017,Ankle Injury
+alaba-david,hKx3nCTp,23.04.2017,25.04.2017,Knee Injury
+alaba-david,hKx3nCTp,18.09.2016,20.09.2016,Illness
+alexander-arnold-trent,CEVJy6Bc,04.12.2025,06.02.2026,Thigh Injury
+alexander-arnold-trent,CEVJy6Bc,17.09.2025,24.10.2025,Hamstring Injury
+alexander-arnold-trent,CEVJy6Bc,08.07.2025,11.08.2025,Muscle Injury
+alexander-arnold-trent,CEVJy6Bc,12.03.2025,20.04.2025,Ankle Injury
+alexander-arnold-trent,CEVJy6Bc,02.02.2025,11.02.2025,Thigh Injury
+alexander-arnold-trent,CEVJy6Bc,10.11.2024,26.11.2024,Muscle Injury
+alexander-arnold-trent,CEVJy6Bc,11.02.2024,10.04.2024,Knee Injury
+alexander-arnold-trent,CEVJy6Bc,09.01.2024,28.01.2024,Knee Injury
+alexander-arnold-trent,CEVJy6Bc,13.12.2023,15.12.2023,Rest
+alexander-arnold-trent,CEVJy6Bc,04.09.2023,26.09.2023,Muscle Injury
+alexander-arnold-trent,CEVJy6Bc,23.12.2022,25.12.2022,Illness
+alexander-arnold-trent,CEVJy6Bc,10.10.2022,15.10.2022,Ankle Injury
+alexander-arnold-trent,CEVJy6Bc,18.03.2022,01.04.2022,Thigh Injury
+alexander-arnold-trent,CEVJy6Bc,11.01.2022,12.01.2022,Illness
+alexander-arnold-trent,CEVJy6Bc,28.09.2021,15.10.2021,Muscle Injury
+alexander-arnold-trent,CEVJy6Bc,20.09.2021,22.09.2021,Rest
+alexander-arnold-trent,CEVJy6Bc,03.06.2021,19.07.2021,Thigh Injury
+alexander-arnold-trent,CEVJy6Bc,09.11.2020,05.12.2020,Calf Injury
+alexander-arnold-trent,CEVJy6Bc,27.07.2020,04.09.2020,Injury
+alexander-arnold-trent,CEVJy6Bc,22.10.2019,25.10.2019,Illness
+alexander-arnold-trent,CEVJy6Bc,18.03.2019,30.03.2019,Lower Back Injury
+alexander-arnold-trent,CEVJy6Bc,11.03.2019,12.03.2019,Muscle Injury
+alexander-arnold-trent,CEVJy6Bc,13.01.2019,08.02.2019,Knee Injury
+alexander-arnold-trent,CEVJy6Bc,12.12.2018,25.12.2018,Foot Injury
+asencio-raul,rPco96rl,22.01.2026,23.01.2026,Knock
+asencio-raul,rPco96rl,17.12.2025,19.12.2025,Illness
+asencio-raul,rPco96rl,27.11.2025,01.12.2025,Illness
+asencio-raul,rPco96rl,23.10.2025,24.10.2025,Injury
+asencio-raul,rPco96rl,15.05.2025,22.05.2025,Muscle Injury
+carreras-alvaro,ALGEzlma,13.01.2026,15.01.2026,Rest
+carvajal-daniel,rZh5FTHE,27.10.2025,03.01.2026,Knee Injury
+carvajal-daniel,rZh5FTHE,01.10.2025,20.10.2025,Calf Injury
+carvajal-daniel,rZh5FTHE,14.10.2024,30.06.2025,Knee Injury
+carvajal-daniel,rZh5FTHE,24.09.2024,27.09.2024,Muscle Injury
+carvajal-daniel,rZh5FTHE,19.04.2024,20.04.2024,Injury
+carvajal-daniel,rZh5FTHE,04.12.2023,01.01.2024,Calf Injury
+carvajal-daniel,rZh5FTHE,19.09.2023,26.09.2023,Muscle Injury
+carvajal-daniel,rZh5FTHE,09.02.2023,11.02.2023,Illness
+carvajal-daniel,rZh5FTHE,16.01.2023,01.02.2023,Muscle Injury
+carvajal-daniel,rZh5FTHE,01.01.2023,10.01.2023,Injury
+carvajal-daniel,rZh5FTHE,11.08.2022,19.08.2022,Injury
+carvajal-daniel,rZh5FTHE,22.07.2022,30.07.2022,Ankle Injury
+carvajal-daniel,rZh5FTHE,14.01.2022,25.01.2022,Illness
+carvajal-daniel,rZh5FTHE,15.12.2021,10.01.2022,Muscle Injury
+carvajal-daniel,rZh5FTHE,20.09.2021,22.10.2021,Calf Injury
+carvajal-daniel,rZh5FTHE,29.04.2021,20.08.2021,Thigh Injury
+carvajal-daniel,rZh5FTHE,15.02.2021,20.04.2021,Muscle Injury
+carvajal-daniel,rZh5FTHE,11.01.2021,13.02.2021,Muscle Injury
+carvajal-daniel,rZh5FTHE,05.01.2021,07.01.2021,Muscle Injury
+carvajal-daniel,rZh5FTHE,26.11.2020,08.12.2020,Muscle Injury
+carvajal-daniel,rZh5FTHE,01.10.2020,20.11.2020,Knee Injury
+carvajal-daniel,rZh5FTHE,15.06.2020,17.06.2020,Ankle Injury
+carvajal-daniel,rZh5FTHE,02.02.2020,08.02.2020,Injury
+carvajal-daniel,rZh5FTHE,18.10.2019,20.10.2019,Rest
+carvajal-daniel,rZh5FTHE,06.03.2019,14.04.2019,Thigh Injury
+carvajal-daniel,rZh5FTHE,03.10.2018,23.11.2018,Calf Injury
+carvajal-daniel,rZh5FTHE,20.09.2018,28.09.2018,Muscle Injury
+carvajal-daniel,rZh5FTHE,27.05.2018,11.06.2018,Muscle Injury
+carvajal-daniel,rZh5FTHE,26.04.2018,17.05.2018,Thigh Injury
+carvajal-daniel,rZh5FTHE,30.09.2017,17.11.2017,Heart Problems
+carvajal-daniel,rZh5FTHE,03.05.2017,20.05.2017,Injury
+carvajal-daniel,rZh5FTHE,23.03.2017,23.03.2017,Illness
+carvajal-daniel,rZh5FTHE,18.01.2017,10.02.2017,Muscle Injury
+eder-militao,zX2Rm9YG,08.12.2025,13.04.2026,Hamstring Injury
+eder-militao,zX2Rm9YG,19.11.2025,29.11.2025,Groin Injury
+eder-militao,zX2Rm9YG,28.09.2025,02.10.2025,Ankle Injury
+eder-militao,zX2Rm9YG,10.11.2024,30.06.2025,Knee Injury
+eder-militao,zX2Rm9YG,07.10.2024,17.10.2024,Thigh Injury
+eder-militao,zX2Rm9YG,05.09.2024,11.09.2024,Muscle Injury
+eder-militao,zX2Rm9YG,13.08.2023,30.03.2024,Knee Injury
+eder-militao,zX2Rm9YG,03.02.2023,11.02.2023,Muscle Injury
+eder-militao,zX2Rm9YG,13.01.2023,14.01.2023,Concussion
+eder-militao,zX2Rm9YG,31.12.2022,02.01.2023,Injury
+eder-militao,zX2Rm9YG,08.09.2022,09.09.2022,Thigh Injury
+eder-militao,zX2Rm9YG,25.11.2021,27.11.2021,Knee Injury
+eder-militao,zX2Rm9YG,11.10.2021,18.10.2021,Back Injury
+eder-militao,zX2Rm9YG,08.02.2021,06.03.2021,Muscle Injury
+eder-militao,zX2Rm9YG,02.11.2020,19.11.2020,Illness
+eder-militao,zX2Rm9YG,01.11.2020,27.11.2020,Illness
+eder-militao,zX2Rm9YG,08.08.2020,16.10.2020,Muscle Injury
+eder-militao,zX2Rm9YG,08.12.2018,14.12.2018,Injury
+fran-garcia,tURBbW9S,18.03.2025,27.03.2025,Muscle Injury
+fran-garcia,tURBbW9S,10.04.2022,13.04.2023,Shoulder Injury
+fran-garcia,tURBbW9S,10.02.2022,11.02.2022,Injury
+fran-garcia,tURBbW9S,24.01.2022,08.02.2022,Injury
+fran-garcia,tURBbW9S,31.12.2021,31.12.2021,Illness
+huijsen-dean,2V3qUZAd,21.12.2025,06.01.2026,Overload
+huijsen-dean,2V3qUZAd,25.11.2025,11.12.2025,Muscle Injury
+huijsen-dean,2V3qUZAd,17.11.2025,19.11.2025,Groin Injury
+huijsen-dean,2V3qUZAd,08.10.2025,24.10.2025,Muscle Injury
+huijsen-dean,2V3qUZAd,10.04.2024,14.04.2024,Injury
+mendy-ferland,KnytnSKl,07.02.2026,13.02.2026,Injury
+mendy-ferland,KnytnSKl,09.01.2026,06.02.2026,Calf Injury
+mendy-ferland,KnytnSKl,01.12.2025,19.12.2025,Muscle Injury
+mendy-ferland,KnytnSKl,27.04.2025,21.10.2025,Hamstring Injury
+mendy-ferland,KnytnSKl,13.03.2025,25.04.2025,Hamstring Injury
+mendy-ferland,KnytnSKl,08.12.2024,21.12.2024,Muscle Injury
+mendy-ferland,KnytnSKl,02.09.2024,11.09.2024,Leg Injury
+mendy-ferland,KnytnSKl,22.04.2024,29.04.2024,Muscle Injury
+mendy-ferland,KnytnSKl,18.12.2023,07.01.2024,Muscle Injury
+mendy-ferland,KnytnSKl,29.10.2023,06.11.2023,Injury
+mendy-ferland,KnytnSKl,30.07.2023,18.09.2023,Muscle Injury
+mendy-ferland,KnytnSKl,31.03.2023,12.05.2023,Calf Injury
+mendy-ferland,KnytnSKl,27.01.2023,14.03.2023,Thigh Injury
+mendy-ferland,KnytnSKl,14.04.2022,25.04.2022,Muscle Injury
+mendy-ferland,KnytnSKl,08.04.2022,11.04.2022,Muscle Injury
+mendy-ferland,KnytnSKl,16.03.2022,31.03.2022,Muscle Injury
+mendy-ferland,KnytnSKl,24.01.2022,13.02.2022,Muscle Injury
+mendy-ferland,KnytnSKl,03.10.2021,13.10.2021,Injury
+mendy-ferland,KnytnSKl,08.05.2021,02.10.2021,Muscle Injury
+mendy-ferland,KnytnSKl,15.04.2021,03.05.2021,Calf Injury
+mendy-ferland,KnytnSKl,23.09.2019,18.10.2019,Groin Injury
+mendy-ferland,KnytnSKl,28.07.2019,31.08.2019,Thigh Injury
+mendy-ferland,KnytnSKl,14.03.2019,25.04.2019,Thigh Injury
+mendy-ferland,KnytnSKl,24.09.2018,28.09.2018,Groin Injury
+mendy-ferland,KnytnSKl,18.10.2017,31.10.2017,Thigh Injury
+mendy-ferland,KnytnSKl,10.08.2017,25.08.2017,Ankle Injury
+rudiger-antonio,rZHXvTho,13.01.2026,06.02.2026,Knee Injury
+rudiger-antonio,rZHXvTho,09.01.2026,10.01.2026,Knee Injury
+rudiger-antonio,rZHXvTho,12.09.2025,29.11.2025,Thigh Injury
+rudiger-antonio,rZHXvTho,28.04.2025,20.06.2025,Knee Injury
+rudiger-antonio,rZHXvTho,08.03.2025,10.03.2025,Illness
+rudiger-antonio,rZHXvTho,02.02.2025,17.02.2025,Muscle Injury
+rudiger-antonio,rZHXvTho,05.01.2025,07.01.2025,Rest
+rudiger-antonio,rZHXvTho,29.10.2024,04.11.2024,Muscle Injury
+rudiger-antonio,rZHXvTho,24.06.2024,28.06.2024,Hamstring Injury
+rudiger-antonio,rZHXvTho,10.02.2024,24.02.2024,Muscle Injury
+rudiger-antonio,rZHXvTho,02.02.2024,09.02.2024,Knee Injury
+rudiger-antonio,rZHXvTho,02.04.2023,04.04.2023,Knee Injury
+rudiger-antonio,rZHXvTho,03.11.2022,21.11.2022,Hip Injury
+rudiger-antonio,rZHXvTho,12.10.2022,15.10.2022,Head Injury
+rudiger-antonio,rZHXvTho,18.04.2022,27.04.2022,Groin Injury
+rudiger-antonio,rZHXvTho,14.10.2021,18.10.2021,Back Injury
+rudiger-antonio,rZHXvTho,28.04.2021,04.05.2021,Muscle Injury
+rudiger-antonio,rZHXvTho,15.09.2019,09.12.2019,Pelvis Injury
+rudiger-antonio,rZHXvTho,14.07.2019,13.08.2019,Knee Injury
+rudiger-antonio,rZHXvTho,29.04.2019,12.07.2019,Knee Injury
+rudiger-antonio,rZHXvTho,15.04.2019,26.04.2019,Knee Injury
+rudiger-antonio,rZHXvTho,31.01.2019,01.02.2019,Knee Injury
+rudiger-antonio,rZHXvTho,05.11.2018,10.11.2018,Injury
+rudiger-antonio,rZHXvTho,08.10.2018,19.10.2018,Groin Injury
+rudiger-antonio,rZHXvTho,24.09.2018,28.09.2018,Groin Injury
+rudiger-antonio,rZHXvTho,08.03.2018,13.03.2018,Knock
+rudiger-antonio,rZHXvTho,07.06.2016,03.10.2016,Knee Injury
+bellingham-jude,QNvlPm7s,13.01.2026,15.01.2026,Rest
+bellingham-jude,QNvlPm7s,10.07.2025,15.09.2025,Shoulder Injury
+bellingham-jude,QNvlPm7s,02.05.2025,03.05.2025,Thigh Injury
+bellingham-jude,QNvlPm7s,04.02.2025,07.02.2025,Knock
+bellingham-jude,QNvlPm7s,23.08.2024,15.09.2024,Muscle Injury
+bellingham-jude,QNvlPm7s,18.04.2024,25.04.2024,Stomach Disorder
+bellingham-jude,QNvlPm7s,11.02.2024,29.02.2024,Ankle Injury
+bellingham-jude,QNvlPm7s,10.11.2023,21.11.2023,Shoulder Injury
+bellingham-jude,QNvlPm7s,25.10.2023,27.10.2023,Groin Injury
+bellingham-jude,QNvlPm7s,22.09.2023,23.09.2023,Injury
+bellingham-jude,QNvlPm7s,12.06.2023,23.07.2023,Knee Injury
+bellingham-jude,QNvlPm7s,14.05.2023,26.05.2023,Knee Injury
+bellingham-jude,QNvlPm7s,26.11.2021,03.12.2021,Knee Injury
+bellingham-jude,QNvlPm7s,23.12.2020,15.01.2021,Knock
+camavinga-eduardo,6ekYsPfO,08.12.2025,19.12.2025,Ankle Injury
+camavinga-eduardo,6ekYsPfO,04.12.2025,06.12.2025,Ankle Injury
+camavinga-eduardo,6ekYsPfO,11.11.2025,18.11.2025,Hamstring Injury
+camavinga-eduardo,6ekYsPfO,01.08.2025,15.09.2025,Ankle Injury
+camavinga-eduardo,6ekYsPfO,24.04.2025,09.07.2025,Groin Injury
+camavinga-eduardo,6ekYsPfO,17.01.2025,07.02.2025,Muscle Injury
+camavinga-eduardo,6ekYsPfO,28.11.2024,13.12.2024,Thigh Injury
+camavinga-eduardo,6ekYsPfO,15.08.2024,28.09.2024,Knee Injury
+camavinga-eduardo,6ekYsPfO,23.06.2024,24.06.2024,Ankle Injury
+camavinga-eduardo,6ekYsPfO,15.11.2023,05.01.2024,Knee Injury
+camavinga-eduardo,6ekYsPfO,13.01.2023,14.01.2023,Knee Injury
+camavinga-eduardo,6ekYsPfO,29.12.2021,31.12.2021,Illness
+camavinga-eduardo,6ekYsPfO,04.10.2021,18.10.2021,Foot Injury
+camavinga-eduardo,6ekYsPfO,24.10.2020,19.11.2020,Contusion
+camavinga-eduardo,6ekYsPfO,16.11.2019,30.11.2019,Muscle Injury
+ceballos-dani,zPYmze7F,05.10.2025,24.10.2025,Muscle Injury
+ceballos-dani,zPYmze7F,29.04.2025,02.05.2025,Ankle Injury
+ceballos-dani,zPYmze7F,27.02.2025,12.04.2025,Muscle Injury
+ceballos-dani,zPYmze7F,02.09.2024,04.10.2024,Ankle Injury
+ceballos-dani,zPYmze7F,14.03.2024,29.03.2024,Knee Injury
+ceballos-dani,zPYmze7F,08.10.2023,23.11.2023,Muscle Injury
+ceballos-dani,zPYmze7F,13.07.2023,16.09.2023,Thigh Injury
+ceballos-dani,zPYmze7F,10.05.2023,12.05.2023,Muscle Injury
+ceballos-dani,zPYmze7F,07.05.2023,08.05.2023,Muscle Injury
+ceballos-dani,zPYmze7F,03.10.2022,29.10.2022,Thigh Injury
+ceballos-dani,zPYmze7F,07.05.2022,14.05.2022,Muscle Injury
+ceballos-dani,zPYmze7F,15.04.2022,19.04.2022,Illness
+ceballos-dani,zPYmze7F,20.12.2021,01.01.2022,Muscle Injury
+ceballos-dani,zPYmze7F,22.07.2021,18.12.2021,Ankle Injury
+ceballos-dani,zPYmze7F,15.01.2021,01.02.2021,Calf Injury
+ceballos-dani,zPYmze7F,18.10.2020,24.10.2020,Ankle Injury
+ceballos-dani,zPYmze7F,07.11.2019,31.12.2019,Thigh Injury
+ceballos-dani,zPYmze7F,22.01.2018,17.02.2018,Ankle Injury
+ceballos-dani,zPYmze7F,02.09.2017,02.09.2017,Neck Injury
+ceballos-dani,zPYmze7F,04.05.2017,13.05.2017,Ankle Injury
+ceballos-dani,zPYmze7F,06.04.2017,08.04.2017,Knee Injury
+diaz-brahim,nm2Qvnyk,19.01.2026,21.01.2026,Rest
+diaz-brahim,nm2Qvnyk,25.05.2025,16.06.2025,Injury
+diaz-brahim,nm2Qvnyk,14.05.2025,22.05.2025,Thigh Injury
+diaz-brahim,nm2Qvnyk,15.09.2024,25.10.2024,Thigh Injury
+diaz-brahim,nm2Qvnyk,14.02.2024,17.02.2024,Muscle Injury
+diaz-brahim,nm2Qvnyk,30.11.2023,02.12.2023,Shoulder Injury
+diaz-brahim,nm2Qvnyk,27.02.2023,07.03.2023,Knee Injury
+diaz-brahim,nm2Qvnyk,23.10.2022,24.10.2022,Muscle Injury
+diaz-brahim,nm2Qvnyk,15.10.2021,25.10.2021,Illness
+diaz-brahim,nm2Qvnyk,31.03.2021,06.04.2021,Ankle Injury
+diaz-brahim,nm2Qvnyk,22.03.2021,25.03.2021,Ankle Injury
+diaz-brahim,nm2Qvnyk,22.02.2021,24.02.2021,Injury
+diaz-brahim,nm2Qvnyk,27.01.2021,20.02.2021,Muscle Injury
+diaz-brahim,nm2Qvnyk,28.07.2019,01.10.2019,Groin Injury
+guler-arda,CUU9qDpb,02.11.2025,03.11.2025,Ankle Injury
+guler-arda,CUU9qDpb,09.11.2023,01.01.2024,Thigh Injury
+guler-arda,CUU9qDpb,18.10.2023,04.11.2023,Muscle Injury
+guler-arda,CUU9qDpb,26.09.2023,12.10.2023,Muscle Injury
+guler-arda,CUU9qDpb,31.07.2023,25.09.2023,Knee Injury
+guler-arda,CUU9qDpb,23.12.2022,26.12.2022,Lacking Match Fitness
+guler-arda,CUU9qDpb,19.09.2022,01.10.2022,Injury
+guler-arda,CUU9qDpb,30.04.2022,01.07.2022,Injury
+tchouameni-aurelien,QkiZum3e,13.01.2026,15.01.2026,Rest
+tchouameni-aurelien,QkiZum3e,06.11.2025,25.11.2025,Muscle Injury
+tchouameni-aurelien,QkiZum3e,19.01.2025,21.01.2025,Leg Injury
+tchouameni-aurelien,QkiZum3e,10.01.2025,10.01.2025,Head Injury
+tchouameni-aurelien,QkiZum3e,06.11.2024,03.12.2024,Ankle Injury
+tchouameni-aurelien,QkiZum3e,02.09.2024,15.09.2024,Foot Injury
+tchouameni-aurelien,QkiZum3e,09.05.2024,31.05.2024,Foot Injury
+tchouameni-aurelien,QkiZum3e,02.05.2024,03.05.2024,Foot Injury
+tchouameni-aurelien,QkiZum3e,29.10.2023,15.12.2023,Foot Injury
+tchouameni-aurelien,QkiZum3e,18.02.2023,24.02.2023,Illness
+tchouameni-aurelien,QkiZum3e,08.01.2023,01.02.2023,Calf Injury
+tchouameni-aurelien,QkiZum3e,15.12.2022,17.12.2022,Hip Injury
+tchouameni-aurelien,QkiZum3e,26.10.2022,06.11.2022,Rest
+tchouameni-aurelien,QkiZum3e,23.12.2021,07.01.2022,Groin Injury
+tchouameni-aurelien,QkiZum3e,20.11.2021,27.11.2021,Knee Injury
+tchouameni-aurelien,QkiZum3e,09.03.2021,13.03.2021,Muscle Injury
+tchouameni-aurelien,QkiZum3e,10.03.2019,18.07.2019,Broken Leg
+tchouameni-aurelien,QkiZum3e,14.12.2018,04.02.2019,Back Injury
+tchouameni-aurelien,QkiZum3e,03.09.2018,18.09.2018,Hip Injury
+valverde-federico,nscfER6B,15.12.2025,02.01.2026,Ankle Injury
+valverde-federico,nscfER6B,10.11.2025,21.11.2025,Injury
+valverde-federico,nscfER6B,25.05.2025,31.05.2025,Lower Back Injury
+valverde-federico,nscfER6B,05.03.2025,07.03.2025,Injury
+valverde-federico,nscfER6B,25.02.2025,03.03.2025,Muscle Injury
+valverde-federico,nscfER6B,06.11.2024,08.11.2024,Back Injury
+valverde-federico,nscfER6B,18.12.2023,20.12.2023,Injury
+valverde-federico,nscfER6B,23.10.2022,29.10.2022,Muscle Injury
+valverde-federico,nscfER6B,04.03.2022,07.03.2022,Illness
+valverde-federico,nscfER6B,27.02.2022,02.03.2022,Muscle Injury
+valverde-federico,nscfER6B,29.12.2021,01.01.2022,Illness
+valverde-federico,nscfER6B,25.10.2021,27.11.2021,Knee Injury
+valverde-federico,nscfER6B,21.04.2021,04.05.2021,Illness
+valverde-federico,nscfER6B,15.04.2021,20.04.2021,Injury
+valverde-federico,nscfER6B,11.04.2021,13.04.2021,Leg Injury
+valverde-federico,nscfER6B,23.03.2021,05.04.2021,Muscle Injury
+valverde-federico,nscfER6B,22.01.2021,28.02.2021,Muscle Injury
+valverde-federico,nscfER6B,09.11.2020,11.12.2020,Shin Injury
+valverde-federico,nscfER6B,29.09.2019,30.09.2019,Injury
+valverde-federico,nscfER6B,12.09.2019,21.09.2019,Thigh Injury
+valverde-federico,nscfER6B,16.02.2018,05.04.2018,Muscle Injury
+valverde-federico,nscfER6B,07.01.2018,12.01.2018,Illness
+mastantuono-franco,tpBPaidM,02.11.2025,29.11.2025,Groin Injury
+mastantuono-franco,tpBPaidM,11.10.2025,17.10.2025,Muscle Injury
+mbappe-kylian,Wn6E2SED,12.02.2026,13.02.2026,Knee Injury
+mbappe-kylian,Wn6E2SED,13.01.2026,15.01.2026,Rest
+mbappe-kylian,Wn6E2SED,31.12.2025,10.01.2026,Knee Injury
+mbappe-kylian,Wn6E2SED,14.11.2025,18.11.2025,Ankle Injury
+mbappe-kylian,Wn6E2SED,11.10.2025,17.10.2025,Ankle Injury
+mbappe-kylian,Wn6E2SED,05.10.2025,10.10.2025,Ankle Injury
+mbappe-kylian,Wn6E2SED,17.06.2025,29.06.2025,Illness
+mbappe-kylian,Wn6E2SED,22.04.2025,25.04.2025,Ankle Injury
+mbappe-kylian,Wn6E2SED,17.04.2025,18.04.2025,Ankle Injury
+mbappe-kylian,Wn6E2SED,25.02.2025,27.02.2025,Rest
+mbappe-kylian,Wn6E2SED,04.02.2025,07.02.2025,Calf Injury
+mbappe-kylian,Wn6E2SED,12.12.2024,17.12.2024,Thigh Injury
+mbappe-kylian,Wn6E2SED,25.09.2024,01.10.2024,Hamstring Injury
+mbappe-kylian,Wn6E2SED,22.06.2024,24.06.2024,Broken nose
+mbappe-kylian,Wn6E2SED,13.05.2024,23.05.2024,Muscle Injury
+mbappe-kylian,Wn6E2SED,08.02.2024,09.02.2024,Ankle Injury
+mbappe-kylian,Wn6E2SED,25.09.2023,29.09.2023,Ankle Injury
+mbappe-kylian,Wn6E2SED,13.09.2023,14.09.2023,Knee Injury
+mbappe-kylian,Wn6E2SED,11.04.2023,12.04.2023,Thigh Injury
+mbappe-kylian,Wn6E2SED,02.02.2023,13.02.2023,Thigh Injury
+mbappe-kylian,Wn6E2SED,10.01.2023,12.01.2023,Rest
+mbappe-kylian,Wn6E2SED,13.10.2022,15.10.2022,Ankle Injury
+mbappe-kylian,Wn6E2SED,07.10.2022,07.10.2022,Illness
+mbappe-kylian,Wn6E2SED,05.08.2022,11.08.2022,Muscle Injury
+mbappe-kylian,Wn6E2SED,07.03.2022,08.03.2022,Leg Injury
+mbappe-kylian,Wn6E2SED,25.10.2021,02.11.2021,Illness
+mbappe-kylian,Wn6E2SED,16.09.2021,18.09.2021,Ankle Injury
+mbappe-kylian,Wn6E2SED,02.09.2021,10.09.2021,Calf Injury
+mbappe-kylian,Wn6E2SED,29.04.2021,04.05.2021,Calf Injury
+mbappe-kylian,Wn6E2SED,25.04.2021,27.04.2021,Muscle Injury
+mbappe-kylian,Wn6E2SED,21.12.2020,22.12.2020,Groin Injury
+mbappe-kylian,Wn6E2SED,03.11.2020,16.11.2020,Thigh Injury
+mbappe-kylian,Wn6E2SED,25.07.2020,11.08.2020,Ankle Injury
+mbappe-kylian,Wn6E2SED,05.03.2020,10.03.2020,Illness
+mbappe-kylian,Wn6E2SED,13.02.2020,17.02.2020,Rest
+mbappe-kylian,Wn6E2SED,18.11.2019,21.11.2019,Illness
+mbappe-kylian,Wn6E2SED,08.11.2019,10.11.2019,Groin Injury
+mbappe-kylian,Wn6E2SED,02.10.2019,17.10.2019,Muscle Injury
+mbappe-kylian,Wn6E2SED,26.08.2019,27.09.2019,Thigh Injury
+mbappe-kylian,Wn6E2SED,17.11.2018,27.11.2018,Shoulder Injury
+mbappe-kylian,Wn6E2SED,10.06.2018,14.06.2018,Ankle Injury
+mbappe-kylian,Wn6E2SED,07.04.2018,14.04.2018,Abdominal strain
+mbappe-kylian,Wn6E2SED,22.01.2018,29.01.2018,Neck Injury
+mbappe-kylian,Wn6E2SED,21.08.2016,31.08.2016,Head Injury
+mbappe-kylian,Wn6E2SED,13.08.2016,19.08.2016,Concussion
+rodrygo,zPUyR5Up,19.02.2026,22.02.2026,Muscle Injury
+rodrygo,zPUyR5Up,05.02.2026,15.02.2026,Muscle Injury
+rodrygo,zPUyR5Up,13.01.2026,23.01.2026,Injury
+rodrygo,zPUyR5Up,13.05.2025,31.05.2025,Thigh Injury
+rodrygo,zPUyR5Up,03.05.2025,09.05.2025,Illness
+rodrygo,zPUyR5Up,07.12.2024,08.12.2024,Muscle Injury
+rodrygo,zPUyR5Up,10.11.2024,30.11.2024,Hamstring Injury
+rodrygo,zPUyR5Up,23.10.2024,04.11.2024,Muscle Injury
+rodrygo,zPUyR5Up,25.04.2024,29.04.2024,Illness
+rodrygo,zPUyR5Up,10.05.2023,15.05.2023,Injury
+rodrygo,zPUyR5Up,22.02.2023,28.02.2023,Muscle Injury
+rodrygo,zPUyR5Up,06.10.2022,07.10.2022,Calf Injury
+rodrygo,zPUyR5Up,13.08.2022,27.08.2022,Muscle Injury
+rodrygo,zPUyR5Up,17.12.2021,23.12.2021,Illness
+rodrygo,zPUyR5Up,31.10.2021,17.11.2021,Muscle Injury
+rodrygo,zPUyR5Up,24.12.2020,28.02.2021,Thigh Injury
+rodrygo,zPUyR5Up,29.09.2019,04.10.2019,Injury
+rodrygo,zPUyR5Up,08.08.2019,13.09.2019,Thigh Injury
+rodrygo,zPUyR5Up,13.11.2018,14.11.2018,Injury
+rodrygo,zPUyR5Up,21.07.2018,25.07.2018,Knee Injury
+vinicius-junior,CbwQ4Mws,11.05.2025,23.05.2025,Ankle Injury
+vinicius-junior,CbwQ4Mws,25.11.2024,09.12.2024,Hamstring Injury
+vinicius-junior,CbwQ4Mws,06.10.2024,17.10.2024,Neck Injury
+vinicius-junior,CbwQ4Mws,18.11.2023,01.01.2024,Hamstring Injury
+vinicius-junior,CbwQ4Mws,24.09.2023,26.09.2023,Illness
+vinicius-junior,CbwQ4Mws,26.08.2023,23.09.2023,Thigh Injury
+vinicius-junior,CbwQ4Mws,23.05.2023,31.05.2023,Knee Injury
+vinicius-junior,CbwQ4Mws,13.04.2023,16.04.2023,Muscle Injury
+vinicius-junior,CbwQ4Mws,14.05.2022,16.05.2022,Rest
+vinicius-junior,CbwQ4Mws,29.12.2021,06.01.2022,Illness
+vinicius-junior,CbwQ4Mws,19.12.2020,22.12.2020,Injury
+vinicius-junior,CbwQ4Mws,10.11.2019,29.11.2019,Injury
+vinicius-junior,CbwQ4Mws,03.11.2019,08.11.2019,Injury
+vinicius-junior,CbwQ4Mws,20.05.2019,20.07.2019,Injury
+vinicius-junior,CbwQ4Mws,06.03.2019,04.05.2019,Shin Injury
+vinicius-junior,CbwQ4Mws,10.01.2019,12.01.2019,Illness
+vinicius-junior,CbwQ4Mws,21.10.2017,24.10.2017,Injury
+arbeloa-alvaro,CO9bjrLo,30.12.2016,05.09.2022,Foot Injury
+lunin-andriy,0S7ye9jr,15.01.2026,19.01.2026,Injury
+lunin-andriy,0S7ye9jr,03.09.2025,11.09.2025,Back Injury
+lunin-andriy,0S7ye9jr,14.05.2025,17.05.2025,Hand Injury
+lunin-andriy,0S7ye9jr,07.04.2025,18.04.2025,Calf Injury
+lunin-andriy,0S7ye9jr,03.04.2025,04.04.2025,Calf Injury
+lunin-andriy,0S7ye9jr,07.10.2024,17.10.2024,Illness
+lunin-andriy,0S7ye9jr,28.05.2024,31.05.2024,Illness
+lunin-andriy,0S7ye9jr,26.02.2023,10.03.2023,Stomach Disorder
+lunin-andriy,0S7ye9jr,26.02.2022,04.03.2022,Shoulder Injury
+lunin-andriy,0S7ye9jr,17.12.2021,31.12.2021,Illness
+lunin-andriy,0S7ye9jr,23.08.2021,09.09.2021,Illness
+martinez-joan,MgVkWvVa,12.08.2024,25.07.2025,Knee Injury
+garcia-joan,vuAlEqes,25.09.2025,20.11.2025,Knee Injury
+garcia-joan,vuAlEqes,18.12.2021,08.01.2022,Illness
+szczesny-wojciech,6NtwHZ7F,10.12.2025,15.12.2025,Illness
+szczesny-wojciech,6NtwHZ7F,14.04.2024,17.04.2024,Injury
+szczesny-wojciech,6NtwHZ7F,21.08.2023,06.09.2023,Injury
+szczesny-wojciech,6NtwHZ7F,14.04.2023,16.04.2023,Chest Injury
+szczesny-wojciech,6NtwHZ7F,01.09.2022,16.09.2022,Ankle Injury
+szczesny-wojciech,6NtwHZ7F,08.08.2022,26.08.2022,Muscle Injury
+szczesny-wojciech,6NtwHZ7F,06.11.2021,11.11.2021,Ribs Injury
+szczesny-wojciech,6NtwHZ7F,12.12.2019,21.12.2019,Shoulder Injury
+szczesny-wojciech,6NtwHZ7F,20.05.2019,25.05.2019,Injury
+szczesny-wojciech,6NtwHZ7F,26.07.2017,29.07.2017,Ankle Injury
+araujo-ronald,M3sbJix9,26.11.2025,30.11.2025,Illness
+araujo-ronald,M3sbJix9,16.05.2025,24.05.2025,Knee Injury
+araujo-ronald,M3sbJix9,10.02.2025,16.02.2025,Ankle Injury
+araujo-ronald,M3sbJix9,21.09.2024,10.12.2024,Muscle Injury
+araujo-ronald,M3sbJix9,08.07.2024,17.09.2024,Muscle Injury
+araujo-ronald,M3sbJix9,14.05.2024,18.05.2024,Injury
+araujo-ronald,M3sbJix9,21.12.2023,02.01.2024,Jaw injury
+araujo-ronald,M3sbJix9,08.11.2023,10.11.2023,Muscle Injury
+araujo-ronald,M3sbJix9,14.08.2023,22.09.2023,Muscle Injury
+araujo-ronald,M3sbJix9,15.05.2023,26.07.2023,Calf Injury
+araujo-ronald,M3sbJix9,20.03.2023,31.03.2023,Muscle Injury
+araujo-ronald,M3sbJix9,24.09.2022,29.12.2022,Muscle Injury
+araujo-ronald,M3sbJix9,04.09.2022,06.09.2022,Muscle Injury
+araujo-ronald,M3sbJix9,05.06.2022,10.06.2022,Injury
+araujo-ronald,M3sbJix9,13.05.2022,21.05.2022,Concussion
+araujo-ronald,M3sbJix9,22.04.2022,23.04.2022,Knee Injury
+araujo-ronald,M3sbJix9,14.02.2022,19.02.2022,Leg Injury
+araujo-ronald,M3sbJix9,06.01.2022,11.01.2022,Hand Injury
+araujo-ronald,M3sbJix9,24.11.2021,26.11.2021,Calf Injury
+araujo-ronald,M3sbJix9,14.10.2021,01.11.2021,Thigh Injury
+araujo-ronald,M3sbJix9,28.02.2021,14.03.2021,Ankle Injury
+araujo-ronald,M3sbJix9,08.02.2021,26.02.2021,Ankle Injury
+araujo-ronald,M3sbJix9,10.01.2021,12.01.2021,Muscle Injury
+araujo-ronald,M3sbJix9,29.10.2020,03.12.2020,Thigh Injury
+araujo-ronald,M3sbJix9,24.07.2020,07.08.2020,Ankle Injury
+balde-alejandro,6c0CXHVM,03.09.2025,29.09.2025,Hamstring Injury
+balde-alejandro,6c0CXHVM,13.04.2025,09.05.2025,Hamstring Injury
+balde-alejandro,6c0CXHVM,06.03.2025,07.03.2025,Ankle Injury
+balde-alejandro,6c0CXHVM,01.12.2024,02.12.2024,Injury
+balde-alejandro,6c0CXHVM,22.01.2024,03.08.2024,Muscle Injury
+balde-alejandro,6c0CXHVM,13.10.2023,20.10.2023,Groin Injury
+balde-alejandro,6c0CXHVM,29.05.2023,26.07.2023,Ankle Injury
+balde-alejandro,6c0CXHVM,02.02.2023,04.02.2023,Illness
+balde-alejandro,6c0CXHVM,01.02.2022,26.03.2022,Ankle Injury
+balde-alejandro,6c0CXHVM,28.12.2021,07.01.2022,Illness
+balde-alejandro,6c0CXHVM,21.09.2021,15.10.2021,Back Injury
+cancelo-joao,dAyeWYpm,17.09.2025,02.11.2025,Hamstring Injury
+cancelo-joao,dAyeWYpm,17.03.2024,25.03.2024,Knock
+cancelo-joao,dAyeWYpm,05.01.2024,23.01.2024,Knee Injury
+cancelo-joao,dAyeWYpm,11.03.2022,13.03.2022,Illness
+cancelo-joao,dAyeWYpm,13.06.2021,26.07.2021,Illness
+cancelo-joao,dAyeWYpm,09.09.2020,06.10.2020,Foot Injury
+cancelo-joao,dAyeWYpm,27.01.2020,28.01.2020,Ankle Injury
+cancelo-joao,dAyeWYpm,20.05.2019,04.06.2019,Broken nose
+cancelo-joao,dAyeWYpm,22.01.2019,26.01.2019,Calf Injury
+cancelo-joao,dAyeWYpm,08.12.2018,15.01.2019,Knee Injury
+cancelo-joao,dAyeWYpm,16.08.2018,17.08.2018,Illness
+cancelo-joao,dAyeWYpm,30.08.2017,13.10.2017,Knee Injury
+cancelo-joao,dAyeWYpm,11.05.2017,20.05.2017,Foot Injury
+christensen-andreas,ShxiZhJI,19.10.2025,08.11.2025,Muscle Injury
+christensen-andreas,ShxiZhJI,01.03.2025,04.04.2025,Calf Injury
+christensen-andreas,ShxiZhJI,28.01.2025,26.02.2025,Calf Injury
+christensen-andreas,ShxiZhJI,08.01.2025,13.01.2025,Lacking Match Fitness
+christensen-andreas,ShxiZhJI,18.08.2024,06.01.2025,Achilles Tendon Injury
+christensen-andreas,ShxiZhJI,18.03.2024,08.04.2024,Achilles Tendon Injury
+christensen-andreas,ShxiZhJI,20.01.2024,22.01.2024,Achilles Tendon Injury
+christensen-andreas,ShxiZhJI,24.03.2023,28.04.2023,Calf Injury
+christensen-andreas,ShxiZhJI,02.03.2023,04.03.2023,Ankle Injury
+christensen-andreas,ShxiZhJI,05.10.2022,04.11.2022,Ankle Injury
+christensen-andreas,ShxiZhJI,28.08.2022,29.08.2022,Illness
+christensen-andreas,ShxiZhJI,12.05.2022,09.06.2022,Illness
+christensen-andreas,ShxiZhJI,21.04.2022,05.05.2022,Illness
+christensen-andreas,ShxiZhJI,17.03.2022,01.04.2022,Muscle Injury
+christensen-andreas,ShxiZhJI,23.02.2022,04.03.2022,Achilles Tendon Injury
+christensen-andreas,ShxiZhJI,14.01.2022,04.02.2022,Illness
+christensen-andreas,ShxiZhJI,30.12.2021,07.01.2022,Lower Back Injury
+christensen-andreas,ShxiZhJI,17.12.2021,23.12.2021,Knock
+christensen-andreas,ShxiZhJI,27.10.2021,29.10.2021,Injury
+christensen-andreas,ShxiZhJI,09.05.2021,22.05.2021,Thigh Injury
+christensen-andreas,ShxiZhJI,14.04.2021,19.04.2021,Muscle Injury
+christensen-andreas,ShxiZhJI,08.04.2021,12.04.2021,Thigh Injury
+christensen-andreas,ShxiZhJI,17.03.2021,20.03.2021,Illness
+christensen-andreas,ShxiZhJI,26.06.2020,02.07.2020,Hip Injury
+christensen-andreas,ShxiZhJI,01.03.2020,07.03.2020,Knock
+christensen-andreas,ShxiZhJI,13.10.2019,04.11.2019,Thigh Injury
+christensen-andreas,ShxiZhJI,23.09.2019,27.09.2019,Knee Injury
+christensen-andreas,ShxiZhJI,12.08.2019,16.08.2019,Knock
+christensen-andreas,ShxiZhJI,10.05.2019,11.05.2019,Knock
+christensen-andreas,ShxiZhJI,20.12.2018,29.12.2018,Thigh Injury
+christensen-andreas,ShxiZhJI,27.09.2018,03.10.2018,Illness
+christensen-andreas,ShxiZhJI,23.03.2018,31.03.2018,Injury
+christensen-andreas,ShxiZhJI,01.02.2018,11.02.2018,Thigh Injury
+christensen-andreas,ShxiZhJI,21.01.2018,23.01.2018,Face Injury
+christensen-andreas,ShxiZhJI,08.03.2017,11.03.2017,Groin Injury
+christensen-andreas,ShxiZhJI,16.01.2017,20.01.2017,Achilles Tendon Injury
+christensen-andreas,ShxiZhJI,17.10.2016,13.11.2016,Muscle Injury
+cubarsi-pau,UgTrNwCF,19.09.2025,20.09.2025,Knee Injury
+cubarsi-pau,UgTrNwCF,05.08.2025,09.08.2025,Injury
+cubarsi-pau,UgTrNwCF,21.03.2025,26.03.2025,Ankle Injury
+cubarsi-pau,UgTrNwCF,07.11.2024,09.11.2024,Face Injury
+garcia-eric,AyxD3I5C,02.10.2025,03.10.2025,Injury
+garcia-eric,AyxD3I5C,21.10.2024,25.11.2024,Muscle Injury
+garcia-eric,AyxD3I5C,25.08.2024,30.08.2024,Heel Injury
+garcia-eric,AyxD3I5C,26.01.2024,02.02.2024,Muscle Injury
+garcia-eric,AyxD3I5C,12.01.2024,23.01.2024,Muscle Injury
+garcia-eric,AyxD3I5C,23.10.2023,01.11.2023,Injury
+garcia-eric,AyxD3I5C,30.10.2022,04.11.2022,Thigh Injury
+garcia-eric,AyxD3I5C,20.05.2022,04.06.2022,Injury
+garcia-eric,AyxD3I5C,12.05.2022,13.05.2022,Finger Injury
+garcia-eric,AyxD3I5C,21.02.2022,23.02.2022,Muscle Injury
+garcia-eric,AyxD3I5C,09.01.2022,12.02.2022,Thigh Injury
+garcia-eric,AyxD3I5C,21.12.2021,01.01.2022,Leg Injury
+garcia-eric,AyxD3I5C,07.07.2021,16.07.2021,Finger Injury
+garcia-eric,AyxD3I5C,03.05.2021,07.05.2021,Illness
+garcia-eric,AyxD3I5C,03.01.2021,19.01.2021,Illness
+garcia-eric,AyxD3I5C,10.12.2020,02.01.2021,Knock
+garcia-eric,AyxD3I5C,07.09.2020,23.09.2020,Head Injury
+garcia-eric,AyxD3I5C,18.06.2020,01.07.2020,Concussion
+kounde-jules,v36QVRPu,22.12.2025,01.01.2026,Injury
+kounde-jules,v36QVRPu,11.11.2025,12.11.2025,Health problems
+kounde-jules,v36QVRPu,06.11.2025,08.11.2025,Overload
+kounde-jules,v36QVRPu,22.10.2025,25.10.2025,Knock
+kounde-jules,v36QVRPu,01.05.2025,31.05.2025,Muscle Injury
+kounde-jules,v36QVRPu,24.03.2024,25.03.2024,Ankle Injury
+kounde-jules,v36QVRPu,09.10.2023,27.10.2023,Knee Injury
+kounde-jules,v36QVRPu,22.05.2023,26.05.2023,Health problems
+kounde-jules,v36QVRPu,03.11.2022,21.11.2022,Muscle Injury
+kounde-jules,v36QVRPu,30.10.2022,02.11.2022,Muscle Injury
+kounde-jules,v36QVRPu,23.09.2022,13.10.2022,Muscle Injury
+kounde-jules,v36QVRPu,04.05.2022,07.05.2022,Injury
+kounde-jules,v36QVRPu,19.04.2022,20.04.2022,Injury
+kounde-jules,v36QVRPu,26.11.2021,27.11.2021,Injury
+kounde-jules,v36QVRPu,04.10.2021,22.10.2021,Injury
+kounde-jules,v36QVRPu,17.05.2021,22.05.2021,Injury
+kounde-jules,v36QVRPu,30.04.2021,02.05.2021,Muscle Injury
+kounde-jules,v36QVRPu,23.04.2021,24.04.2021,Muscle Injury
+kounde-jules,v36QVRPu,05.03.2021,08.03.2021,Injury
+kounde-jules,v36QVRPu,15.10.2020,27.10.2020,Illness
+kounde-jules,v36QVRPu,03.11.2019,08.11.2019,Injury
+kounde-jules,v36QVRPu,12.11.2018,23.11.2018,Knee Injury
+kounde-jules,v36QVRPu,20.10.2017,06.01.2018,Muscle Injury
+martin-gerard,nBVu0v9a,12.06.2025,26.07.2025,Injury
+bernal-marc,pf3IOiFD,28.08.2024,13.09.2025,Knee Injury
+casado-marc,tAhLmeJb,09.11.2025,17.11.2025,Groin Injury
+casado-marc,tAhLmeJb,26.09.2025,27.09.2025,Muscle Injury
+casado-marc,tAhLmeJb,17.03.2025,10.05.2025,Knee Injury
+fermin,2c2ipETG,27.11.2025,05.12.2025,Groin Injury
+fermin,2c2ipETG,22.09.2025,16.10.2025,Groin Injury
+fermin,2c2ipETG,05.08.2025,09.08.2025,Knee Injury
+fermin,2c2ipETG,04.09.2024,18.10.2024,Muscle Injury
+olmo-dani,2oVBOlPg,03.12.2025,01.01.2026,Shoulder Injury
+olmo-dani,2oVBOlPg,06.10.2025,01.11.2025,Muscle Injury
+olmo-dani,2oVBOlPg,28.03.2025,13.04.2025,Groin Injury
+olmo-dani,2oVBOlPg,19.01.2025,05.02.2025,Calf Injury
+olmo-dani,2oVBOlPg,29.11.2024,29.11.2024,Injury
+olmo-dani,2oVBOlPg,16.09.2024,18.10.2024,Muscle Injury
+olmo-dani,2oVBOlPg,04.05.2024,07.06.2024,Illness
+olmo-dani,2oVBOlPg,28.10.2023,12.01.2024,Shoulder Injury
+olmo-dani,2oVBOlPg,09.09.2023,17.10.2023,Knee Injury
+olmo-dani,2oVBOlPg,07.05.2023,20.05.2023,Injury
+olmo-dani,2oVBOlPg,28.01.2023,10.03.2023,Thigh Injury
+olmo-dani,2oVBOlPg,04.09.2022,21.10.2022,Knee Injury
+olmo-dani,2oVBOlPg,21.11.2021,14.01.2022,Muscle Injury
+olmo-dani,2oVBOlPg,19.09.2021,27.10.2021,Thigh Injury
+olmo-dani,2oVBOlPg,19.08.2021,28.08.2021,Muscle Injury
+olmo-dani,2oVBOlPg,14.05.2021,31.05.2021,Calf Injury
+olmo-dani,2oVBOlPg,26.07.2017,02.08.2017,Injury
+pedri,baBG8QuI,22.01.2026,21.02.2026,Muscle Injury
+pedri,baBG8QuI,17.12.2025,01.01.2026,Muscle Injury
+pedri,baBG8QuI,03.12.2025,04.12.2025,Illness
+pedri,baBG8QuI,04.11.2025,27.11.2025,Muscle Injury
+pedri,baBG8QuI,26.01.2025,28.01.2025,Illness
+pedri,baBG8QuI,06.07.2024,16.08.2024,Knee Injury
+pedri,baBG8QuI,05.03.2024,09.04.2024,Muscle Injury
+pedri,baBG8QuI,19.12.2023,10.01.2024,Muscle Injury
+pedri,baBG8QuI,18.10.2023,03.11.2023,Injury
+pedri,baBG8QuI,23.08.2023,13.10.2023,Muscle Injury
+pedri,baBG8QuI,15.05.2023,26.07.2023,Muscle Injury
+pedri,baBG8QuI,17.02.2023,21.04.2023,Thigh Injury
+pedri,baBG8QuI,15.04.2022,12.07.2022,Thigh Injury
+pedri,baBG8QuI,01.10.2021,10.01.2022,Knee Injury
+pedri,baBG8QuI,15.09.2021,28.09.2021,Muscle Injury
+pedri,baBG8QuI,21.05.2021,23.05.2021,Rest
+pedri,baBG8QuI,28.02.2021,02.03.2021,Muscle Injury
+de-jong-frenkie,A1F3rz9c,01.12.2025,04.12.2025,Illness
+de-jong-frenkie,A1F3rz9c,08.09.2025,16.09.2025,Muscle Injury
+de-jong-frenkie,A1F3rz9c,28.03.2025,29.03.2025,Muscle Injury
+de-jong-frenkie,A1F3rz9c,15.03.2025,17.03.2025,Illness
+de-jong-frenkie,A1F3rz9c,21.10.2024,22.10.2024,Lacking Match Fitness
+de-jong-frenkie,A1F3rz9c,22.04.2024,30.09.2024,Ankle Injury
+de-jong-frenkie,A1F3rz9c,06.03.2024,09.04.2024,Ankle Injury
+de-jong-frenkie,A1F3rz9c,12.12.2023,15.12.2023,Illness
+de-jong-frenkie,A1F3rz9c,24.09.2023,22.11.2023,Ankle Injury
+de-jong-frenkie,A1F3rz9c,24.03.2023,21.04.2023,Hamstring Injury
+de-jong-frenkie,A1F3rz9c,10.03.2023,11.03.2023,Injury
+de-jong-frenkie,A1F3rz9c,24.09.2022,05.10.2022,Thigh Injury
+de-jong-frenkie,A1F3rz9c,06.01.2022,11.01.2022,Calf Injury
+de-jong-frenkie,A1F3rz9c,25.10.2021,01.11.2021,Thigh Injury
+de-jong-frenkie,A1F3rz9c,06.08.2021,14.08.2021,Calf Injury
+de-jong-frenkie,A1F3rz9c,23.11.2020,25.11.2020,Rest
+de-jong-frenkie,A1F3rz9c,17.06.2020,15.07.2020,Calf Injury
+de-jong-frenkie,A1F3rz9c,14.06.2020,15.06.2020,Illness
+de-jong-frenkie,A1F3rz9c,10.02.2019,12.02.2019,Groin Injury
+de-jong-frenkie,A1F3rz9c,01.10.2018,06.10.2018,Calf Injury
+de-jong-frenkie,A1F3rz9c,26.02.2018,12.07.2018,Ankle Injury
+bardagji-roony,YgzDTaqN,22.12.2025,02.01.2026,Injury
+bardagji-roony,YgzDTaqN,05.05.2025,26.07.2025,Injury
+bardagji-roony,YgzDTaqN,02.05.2024,13.03.2025,Knee Injury
+bardagji-roony,YgzDTaqN,18.07.2022,05.09.2022,Injury
+lamine-yamal,lAt3vEub,11.11.2025,20.11.2025,Groin Injury
+lamine-yamal,lAt3vEub,02.10.2025,16.10.2025,Groin Injury
+lamine-yamal,lAt3vEub,10.09.2025,26.09.2025,Groin Injury
+lamine-yamal,lAt3vEub,24.02.2025,25.02.2025,Foot Injury
+lamine-yamal,lAt3vEub,16.12.2024,07.01.2025,Ankle Injury
+lamine-yamal,lAt3vEub,09.11.2024,27.11.2024,Ankle Injury
+lamine-yamal,lAt3vEub,14.10.2024,19.10.2024,Muscle Injury
+lamine-yamal,lAt3vEub,26.09.2024,27.09.2024,Ankle Injury
+lamine-yamal,lAt3vEub,10.10.2023,20.10.2023,Leg Injury
+lewandowski-robert,MVC8zHZD,14.10.2025,31.10.2025,Thigh Injury
+lewandowski-robert,MVC8zHZD,05.08.2025,21.08.2025,Muscle Injury
+lewandowski-robert,MVC8zHZD,20.04.2025,04.05.2025,Hamstring Injury
+lewandowski-robert,MVC8zHZD,21.03.2025,24.03.2025,Injury
+lewandowski-robert,MVC8zHZD,14.11.2024,21.11.2024,Back Injury
+lewandowski-robert,MVC8zHZD,06.09.2024,08.09.2024,Muscle Injury
+lewandowski-robert,MVC8zHZD,11.06.2024,15.06.2024,Muscle Injury
+lewandowski-robert,MVC8zHZD,05.10.2023,27.10.2023,Ankle Injury
+lewandowski-robert,MVC8zHZD,27.02.2023,09.03.2023,Muscle Injury
+lewandowski-robert,MVC8zHZD,31.10.2022,02.11.2022,Rest
+lewandowski-robert,MVC8zHZD,11.06.2022,13.06.2022,Rest
+lewandowski-robert,MVC8zHZD,01.04.2022,01.04.2022,Ribs Injury
+lewandowski-robert,MVC8zHZD,17.03.2022,18.03.2022,Knee Injury
+lewandowski-robert,MVC8zHZD,12.09.2021,13.09.2021,Groin Injury
+lewandowski-robert,MVC8zHZD,29.03.2021,23.04.2021,Knee Injury
+lewandowski-robert,MVC8zHZD,30.11.2020,02.12.2020,Rest
+lewandowski-robert,MVC8zHZD,17.11.2020,17.11.2020,Muscle Injury
+lewandowski-robert,MVC8zHZD,19.09.2020,23.09.2020,Foot Injury
+lewandowski-robert,MVC8zHZD,26.02.2020,12.05.2020,Shin Injury
+lewandowski-robert,MVC8zHZD,15.01.2020,18.01.2020,Groin Injury
+lewandowski-robert,MVC8zHZD,24.02.2019,01.03.2019,Stomach Disorder
+lewandowski-robert,MVC8zHZD,16.11.2018,23.11.2018,Knee Injury
+lewandowski-robert,MVC8zHZD,11.11.2018,14.11.2018,Knee Injury
+lewandowski-robert,MVC8zHZD,12.04.2018,13.04.2018,Head Injury
+lewandowski-robert,MVC8zHZD,03.01.2018,20.01.2018,Knee Injury
+lewandowski-robert,MVC8zHZD,30.10.2017,03.11.2017,Thigh Injury
+lewandowski-robert,MVC8zHZD,15.08.2017,17.08.2017,Knee Injury
+lewandowski-robert,MVC8zHZD,10.04.2017,13.04.2017,Shoulder Injury
+lewandowski-robert,MVC8zHZD,15.01.2017,19.01.2017,Illness
+raphinha,xtBsDPam,01.02.2026,14.02.2026,Thigh Injury
+raphinha,xtBsDPam,16.01.2026,19.01.2026,Knock
+raphinha,xtBsDPam,26.09.2025,20.11.2025,Thigh Injury
+raphinha,xtBsDPam,26.03.2025,28.03.2025,Rest
+raphinha,xtBsDPam,12.01.2024,09.02.2024,Muscle Injury
+raphinha,xtBsDPam,30.09.2023,26.10.2023,Hamstring Injury
+raphinha,xtBsDPam,03.05.2023,12.05.2023,Injury
+raphinha,xtBsDPam,18.03.2022,01.04.2022,Illness
+raphinha,xtBsDPam,24.10.2021,30.10.2021,Knock
+raphinha,xtBsDPam,15.10.2021,17.10.2021,Rest
+raphinha,xtBsDPam,18.09.2021,24.09.2021,Hip Injury
+raphinha,xtBsDPam,11.04.2021,07.05.2021,Leg Injury
+raphinha,xtBsDPam,01.02.2021,02.02.2021,Muscle Injury
+raphinha,xtBsDPam,26.10.2020,06.11.2020,Ankle Injury
+raphinha,xtBsDPam,05.02.2020,10.02.2020,Back Injury
+raphinha,xtBsDPam,08.12.2019,13.12.2019,Injury
+raphinha,xtBsDPam,20.12.2018,22.12.2018,Thigh Injury
+raphinha,xtBsDPam,08.10.2018,18.12.2018,Thigh Injury
+raphinha,xtBsDPam,12.03.2018,17.03.2018,Back Injury
+rashford-marcus,COnT2Lh0,11.02.2026,20.02.2026,Knee Injury
+rashford-marcus,COnT2Lh0,21.11.2025,24.11.2025,Illness
+rashford-marcus,COnT2Lh0,26.04.2025,31.05.2025,Hamstring Injury
+rashford-marcus,COnT2Lh0,03.01.2025,15.01.2025,Illness
+rashford-marcus,COnT2Lh0,22.04.2024,14.05.2024,Ankle Injury
+rashford-marcus,COnT2Lh0,08.04.2024,12.04.2024,Injury
+rashford-marcus,COnT2Lh0,04.03.2024,08.03.2024,Knock
+rashford-marcus,COnT2Lh0,27.01.2024,31.01.2024,Illness
+rashford-marcus,COnT2Lh0,11.12.2023,15.12.2023,Illness
+rashford-marcus,COnT2Lh0,04.11.2023,07.11.2023,Leg Injury
+rashford-marcus,COnT2Lh0,19.05.2023,24.05.2023,Illness
+rashford-marcus,COnT2Lh0,12.05.2023,17.05.2023,Leg Injury
+rashford-marcus,COnT2Lh0,09.04.2023,19.04.2023,Muscle Injury
+rashford-marcus,COnT2Lh0,20.03.2023,01.04.2023,Toe Injury
+rashford-marcus,COnT2Lh0,24.02.2023,25.02.2023,Ankle Injury
+rashford-marcus,COnT2Lh0,13.09.2022,01.10.2022,Muscle Injury
+rashford-marcus,COnT2Lh0,20.05.2022,11.07.2022,Illness
+rashford-marcus,COnT2Lh0,06.05.2022,09.05.2022,Illness
+rashford-marcus,COnT2Lh0,21.10.2021,23.10.2021,Thigh Injury
+rashford-marcus,COnT2Lh0,14.07.2021,15.10.2021,Shoulder Injury
+rashford-marcus,COnT2Lh0,19.04.2021,24.04.2021,Foot Injury
+rashford-marcus,COnT2Lh0,12.04.2021,14.04.2021,Foot Injury
+rashford-marcus,COnT2Lh0,05.04.2021,07.04.2021,Muscle Injury
+rashford-marcus,COnT2Lh0,19.03.2021,03.04.2021,Foot Injury
+rashford-marcus,COnT2Lh0,08.03.2021,13.03.2021,Ankle Injury
+rashford-marcus,COnT2Lh0,25.01.2021,26.01.2021,Knee Injury
+rashford-marcus,COnT2Lh0,03.12.2020,04.12.2020,Shoulder Injury
+rashford-marcus,COnT2Lh0,08.11.2020,20.11.2020,Shoulder Injury
+rashford-marcus,COnT2Lh0,16.01.2020,15.06.2020,Lower Back Injury
+rashford-marcus,COnT2Lh0,31.10.2019,01.11.2019,Knee Injury
+rashford-marcus,COnT2Lh0,23.09.2019,29.09.2019,Groin Injury
+rashford-marcus,COnT2Lh0,29.04.2019,04.05.2019,Shoulder Injury
+rashford-marcus,COnT2Lh0,31.03.2019,09.04.2019,Ankle Injury
+rashford-marcus,COnT2Lh0,25.02.2019,26.02.2019,Ankle Injury
+rashford-marcus,COnT2Lh0,28.11.2018,04.12.2018,Ankle Injury
+rashford-marcus,COnT2Lh0,19.11.2018,23.11.2018,Knock
+rashford-marcus,COnT2Lh0,07.02.2018,20.02.2018,Muscle Injury
+rashford-marcus,COnT2Lh0,26.10.2017,27.10.2017,Muscle Injury
+rashford-marcus,COnT2Lh0,19.10.2017,20.10.2017,Knee Injury
+rashford-marcus,COnT2Lh0,05.05.2017,06.05.2017,Knee Injury
+rashford-marcus,COnT2Lh0,12.03.2017,13.03.2017,Illness
+rashford-marcus,COnT2Lh0,22.05.2016,26.05.2016,Knee Injury
+torres-ferran,AVAVLaLt,19.01.2026,27.01.2026,Muscle Injury
+torres-ferran,AVAVLaLt,17.10.2025,20.10.2025,Hamstring Injury
+torres-ferran,AVAVLaLt,12.05.2025,31.05.2025,Surgery
+torres-ferran,AVAVLaLt,19.03.2025,21.03.2025,Muscle Injury
+torres-ferran,AVAVLaLt,29.12.2024,07.01.2025,Calf Injury
+torres-ferran,AVAVLaLt,07.10.2024,28.11.2024,Muscle Injury
+torres-ferran,AVAVLaLt,01.02.2024,16.03.2024,Knee Injury
+torres-ferran,AVAVLaLt,04.01.2022,10.01.2022,Illness
+torres-ferran,AVAVLaLt,07.10.2021,31.12.2021,Foot Injury
+torres-ferran,AVAVLaLt,27.12.2020,12.01.2021,Illness
+torres-ferran,AVAVLaLt,04.07.2020,06.07.2020,Thigh Injury
+torres-ferran,AVAVLaLt,09.01.2020,18.01.2020,Foot Injury
+torres-ferran,AVAVLaLt,30.09.2018,05.10.2018,Injury
