@@ -188,3 +188,15 @@ Pour se rapprocher de 75%, il faut ajouter des donnees exogenes fortes:
 ## Source de donnees principale
 - `football-data.co.uk` via:
   - `data/Scrapping/football-datasets-main/football-datasets-main/datasets/`
+
+
+## api server 
+(.venv) PS C:\Users\Amin\Desktop\TEK-UP\football-match-prediction> python code\09_run_api.py
+## node js interface v0
+(.venv) PS C:\Users\Amin\Desktop\TEK-UP\football-match-prediction\interface\b_65PkRuwmNDh-1771889902461> npm run dev
+## interface normale 
+(.venv) PS C:\Users\Amin\Desktop\TEK-UP\football-match-prediction\frontend> npm run dev
+
+#C:\Users\21655>start brave 127.0.0.1:3000
+
+#C:\Users\21655>start brave 127.0.0.1:5173

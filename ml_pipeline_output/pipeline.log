@@ -1,0 +1,145 @@
+2026-02-27 02:47:41,775 [INFO] ======================================================================
+2026-02-27 02:47:41,775 [INFO] FOOTBALL ML PIPELINE - DEBUT
+2026-02-27 02:47:41,776 [INFO] datasets_dir : datasets
+2026-02-27 02:47:41,776 [INFO] scraping_dir : flashscore_data
+2026-02-27 02:47:41,777 [INFO] ======================================================================
+2026-02-27 02:47:41,777 [INFO] 
+[ETAPE 1] Chargement des donnees ...
+2026-02-27 02:47:41,778 [WARNING] FICHIER MANQUANT: flashscore_data\squads.csv
+2026-02-27 02:47:41,793 [WARNING] FICHIER MANQUANT: flashscore_data\player_profiles.csv
+2026-02-27 02:47:41,795 [WARNING] FICHIER MANQUANT: flashscore_data\injury_history.csv
+2026-02-27 02:47:41,797 [WARNING] Dossier introuvable: datasets\bundesliga
+2026-02-27 02:47:41,798 [WARNING] Dossier introuvable: datasets\la-liga
+2026-02-27 02:47:41,800 [WARNING] Dossier introuvable: datasets\ligue-1
+2026-02-27 02:47:41,801 [WARNING] Dossier introuvable: datasets\premier-league
+2026-02-27 02:47:41,801 [WARNING] Dossier introuvable: datasets\serie-a
+2026-02-27 02:47:41,801 [ERROR] Aucun fichier CSV charge depuis datasets
+2026-02-27 02:47:41,802 [INFO] 
+======================================================================
+  1. SQUADS.CSV
+======================================================================
+2026-02-27 02:47:41,803 [INFO] Dimensions     : 0 lignes x 6 colonnes
+2026-02-27 02:47:41,804 [INFO] Doublons       : 0
+2026-02-27 02:47:41,815 [INFO] Doublons player_id : 0
+2026-02-27 02:47:41,816 [INFO] 
+======================================================================
+  2. PLAYER_PROFILES.CSV
+======================================================================
+2026-02-27 02:47:41,816 [INFO] Dimensions     : 0 lignes x 12 colonnes
+2026-02-27 02:47:41,817 [INFO] 
+======================================================================
+  3. INJURY_HISTORY.CSV
+======================================================================
+2026-02-27 02:47:41,818 [INFO] Dimensions     : 0 lignes x 5 colonnes
+2026-02-27 02:47:41,818 [INFO] 
+======================================================================
+  4. MATCHES (dataset saisons concatene)
+======================================================================
+2026-02-27 02:47:41,818 [INFO] Dimensions     : 0 lignes x 0 colonnes
+2026-02-27 02:47:41,819 [INFO] 
+======================================================================
+  5. RESUME DES JOINTURES POSSIBLES
+======================================================================
+2026-02-27 02:47:41,819 [INFO] 
+  [J1] squads + profiles     ON player_id          -> profil complet par joueur
+  [J2] joueurs_complets + injuries  ON player_id   -> score de blessure par joueur
+  [J3] joueurs_avec_blessures aggrege par team_name -> features equipe
+  [J4] features_equipe + matches   ON team_name    -> DATASET ML FINAL
+       (necessite mapping noms: 'Man City' <-> 'Manchester City')
+    
+2026-02-27 02:47:41,821 [INFO] Rapport sauvegarde -> ml_pipeline_output\data_comprehension_report.txt
+2026-02-27 02:47:41,821 [INFO] 
+[ETAPE 2] Nettoyage & Preprocessing ...
+2026-02-27 02:47:41,834 [INFO] Fichiers nettoyes sauvegardes
+2026-02-27 02:47:41,834 [INFO] 
+[ETAPE 3] Feature Engineering joueurs & equipes ...
+2026-02-27 02:47:41,834 [WARNING] squads vide - features joueurs impossibles
+2026-02-27 02:47:41,835 [INFO] 
+[ETAPE 4] Construction dataset ML final ...
+2026-02-27 02:47:41,835 [ERROR] Dataset matchs vide - impossible de construire le dataset ML
+2026-02-27 02:47:41,835 [INFO] 
+[ETAPE 5] Generation des visualisations ...
+2026-02-27 02:47:41,836 [WARNING] matplotlib/seaborn non installes - visualisations ignorees
+2026-02-27 02:47:41,836 [WARNING]   -> pip install matplotlib seaborn
+2026-02-27 02:47:41,836 [INFO] 
+======================================================================
+2026-02-27 02:47:41,836 [INFO] PIPELINE TERMINE - Fichiers dans : ml_pipeline_output
+2026-02-27 02:47:41,837 [INFO] ======================================================================
+2026-02-27 02:47:41,837 [INFO]   data_comprehension_report.txt                      1.4 KB
+2026-02-27 02:47:41,838 [INFO]   injuries_clean.csv                                 0.1 KB
+2026-02-27 02:47:41,838 [INFO]   matches_all_clean.csv                              0.0 KB
+2026-02-27 02:47:41,838 [INFO]   pipeline.log                                       4.3 KB
+2026-02-27 02:47:41,839 [INFO]   profiles_clean.csv                                 0.1 KB
+2026-02-27 02:51:17,199 [INFO] ======================================================================
+2026-02-27 02:51:17,200 [INFO] FOOTBALL ML PIPELINE - DEBUT
+2026-02-27 02:51:17,200 [INFO] datasets_dir : datasets
+2026-02-27 02:51:17,200 [INFO] scraping_dir : flashscore_data
+2026-02-27 02:51:17,200 [INFO] ======================================================================
+2026-02-27 02:51:17,201 [INFO] 
+[ETAPE 1] Chargement des donnees ...
+2026-02-27 02:51:17,201 [WARNING] FICHIER MANQUANT: flashscore_data\squads.csv
+2026-02-27 02:51:17,202 [WARNING] FICHIER MANQUANT: flashscore_data\player_profiles.csv
+2026-02-27 02:51:17,203 [WARNING] FICHIER MANQUANT: flashscore_data\injury_history.csv
+2026-02-27 02:51:17,203 [WARNING] Dossier introuvable: datasets\bundesliga
+2026-02-27 02:51:17,203 [WARNING] Dossier introuvable: datasets\la-liga
+2026-02-27 02:51:17,204 [WARNING] Dossier introuvable: datasets\ligue-1
+2026-02-27 02:51:17,204 [WARNING] Dossier introuvable: datasets\premier-league
+2026-02-27 02:51:17,204 [WARNING] Dossier introuvable: datasets\serie-a
+2026-02-27 02:51:17,204 [ERROR] Aucun fichier CSV charge depuis datasets
+2026-02-27 02:51:17,205 [INFO] 
+======================================================================
+  1. SQUADS.CSV
+======================================================================
+2026-02-27 02:51:17,205 [INFO] Dimensions     : 0 lignes x 6 colonnes
+2026-02-27 02:51:17,206 [INFO] Doublons       : 0
+2026-02-27 02:51:17,207 [INFO] Doublons player_id : 0
+2026-02-27 02:51:17,207 [INFO] 
+======================================================================
+  2. PLAYER_PROFILES.CSV
+======================================================================
+2026-02-27 02:51:17,208 [INFO] Dimensions     : 0 lignes x 12 colonnes
+2026-02-27 02:51:17,208 [INFO] 
+======================================================================
+  3. INJURY_HISTORY.CSV
+======================================================================
+2026-02-27 02:51:17,208 [INFO] Dimensions     : 0 lignes x 5 colonnes
+2026-02-27 02:51:17,208 [INFO] 
+======================================================================
+  4. MATCHES (dataset saisons concatene)
+======================================================================
+2026-02-27 02:51:17,208 [INFO] Dimensions     : 0 lignes x 0 colonnes
+2026-02-27 02:51:17,209 [INFO] 
+======================================================================
+  5. RESUME DES JOINTURES POSSIBLES
+======================================================================
+2026-02-27 02:51:17,209 [INFO] 
+  [J1] squads + profiles     ON player_id          -> profil complet par joueur
+  [J2] joueurs_complets + injuries  ON player_id   -> score de blessure par joueur
+  [J3] joueurs_avec_blessures aggrege par team_name -> features equipe
+  [J4] features_equipe + matches   ON team_name    -> DATASET ML FINAL
+       (necessite mapping noms: 'Man City' <-> 'Manchester City')
+    
+2026-02-27 02:51:17,210 [INFO] Rapport sauvegarde -> ml_pipeline_output\data_comprehension_report.txt
+2026-02-27 02:51:17,210 [INFO] 
+[ETAPE 2] Nettoyage & Preprocessing ...
+2026-02-27 02:51:17,217 [INFO] Fichiers nettoyes sauvegardes
+2026-02-27 02:51:17,218 [INFO] 
+[ETAPE 3] Feature Engineering joueurs & equipes ...
+2026-02-27 02:51:17,218 [WARNING] squads vide - features joueurs impossibles
+2026-02-27 02:51:17,218 [INFO] 
+[ETAPE 4] Construction dataset ML final ...
+2026-02-27 02:51:17,219 [ERROR] Dataset matchs vide - impossible de construire le dataset ML
+2026-02-27 02:51:17,219 [INFO] 
+[ETAPE 5] Generation des visualisations ...
+2026-02-27 02:51:20,146 [INFO] fig1_nulls.png sauvegarde
+2026-02-27 02:51:20,146 [INFO] Toutes les visualisations sauvegardees dans ml_pipeline_output
+2026-02-27 02:51:20,147 [INFO] 
+======================================================================
+2026-02-27 02:51:20,147 [INFO] PIPELINE TERMINE - Fichiers dans : ml_pipeline_output
+2026-02-27 02:51:20,147 [INFO] ======================================================================
+2026-02-27 02:51:20,148 [INFO]   data_comprehension_report.txt                      1.4 KB
+2026-02-27 02:51:20,148 [INFO]   fig1_nulls.png                                    30.1 KB
+2026-02-27 02:51:20,148 [INFO]   injuries_clean.csv                                 0.1 KB
+2026-02-27 02:51:20,149 [INFO]   matches_all_clean.csv                              0.0 KB
+2026-02-27 02:51:20,149 [INFO]   pipeline.log                                       8.8 KB
+2026-02-27 02:51:20,149 [INFO]   profiles_clean.csv                                 0.1 KB

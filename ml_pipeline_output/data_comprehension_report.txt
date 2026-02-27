@@ -1,0 +1,33 @@
+
+======================================================================
+  1. SQUADS.CSV
+======================================================================
+Dimensions     : 0 lignes x 6 colonnes
+Doublons       : 0
+Doublons player_id : 0
+
+======================================================================
+  2. PLAYER_PROFILES.CSV
+======================================================================
+Dimensions     : 0 lignes x 12 colonnes
+
+======================================================================
+  3. INJURY_HISTORY.CSV
+======================================================================
+Dimensions     : 0 lignes x 5 colonnes
+
+======================================================================
+  4. MATCHES (dataset saisons concatene)
+======================================================================
+Dimensions     : 0 lignes x 0 colonnes
+
+======================================================================
+  5. RESUME DES JOINTURES POSSIBLES
+======================================================================
+
+  [J1] squads + profiles     ON player_id          -> profil complet par joueur
+  [J2] joueurs_complets + injuries  ON player_id   -> score de blessure par joueur
+  [J3] joueurs_avec_blessures aggrege par team_name -> features equipe
+  [J4] features_equipe + matches   ON team_name    -> DATASET ML FINAL
+       (necessite mapping noms: 'Man City' <-> 'Manchester City')
+    

@@ -81,4 +81,4 @@ ML Baseline
 
 ## Flashscore scraper v2 :
 python flashscore_scraper_v2.py --leagues la_liga --train
-python flashscore_scraper_v2.py --leagues all --train
+python flashscore_scraper_v21.py --leagues all --train

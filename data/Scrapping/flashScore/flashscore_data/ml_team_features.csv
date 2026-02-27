@@ -1,0 +1,9 @@
+﻿team_name,league,squad_size,avg_age,total_injuries,avg_injuries,pos_coach,pos_defender,pos_forward,pos_goalkeeper,pos_midfielder
+Athletic Club,la_liga,39,,245.0,6.282051282051282,1,13,10,3,12
+Atletico Madrid,la_liga,38,,288.0,7.578947368421052,2,13,11,4,8
+Barcelona,la_liga,32,,323.0,10.09375,1,12,8,4,7
+Celta Vigo,la_liga,36,,182.0,5.055555555555555,1,12,9,4,10
+Getafe,la_liga,38,,177.0,4.657894736842105,1,13,11,4,9
+Real Madrid,la_liga,39,,438.0,11.23076923076923,1,14,7,5,12
+Real Oviedo,la_liga,32,,154.0,4.8125,1,10,6,3,12
+Villarreal,la_liga,34,,190.0,5.588235294117647,1,11,10,3,9
