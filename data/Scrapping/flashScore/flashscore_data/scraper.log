@@ -450,3 +450,31 @@ Team: Wolfsburg
 2026-02-27 03:24:00,854 [INFO] Equipe: Atletico Madrid
 2026-02-27 03:24:00,855 [INFO]   Squad -> https://www.flashscore.com/team/atl-madrid/jaarqpLQ/squad/
 2026-02-27 03:24:04,143 [INFO]   -> 38 joueurs trouves pour Atletico Madrid
+2026-02-27 03:26:50,521 [INFO] Telechargement matchs: premier_league
+2026-02-27 03:26:54,292 [INFO]   -> 380 matchs -> flashscore_data\matches_premier_league.csv
+2026-02-27 03:26:54,292 [INFO] Telechargement matchs: la_liga
+2026-02-27 03:26:57,981 [INFO]   -> 380 matchs -> flashscore_data\matches_la_liga.csv
+2026-02-27 03:26:57,982 [INFO] Telechargement matchs: serie_a
+2026-02-27 03:27:01,683 [INFO]   -> 306 matchs -> flashscore_data\matches_serie_a.csv
+2026-02-27 03:27:01,684 [INFO] Telechargement matchs: bundesliga
+2026-02-27 03:27:05,364 [INFO]   -> 306 matchs -> flashscore_data\matches_bundesliga.csv
+2026-02-27 03:27:05,365 [INFO] Telechargement matchs: ligue_1
+2026-02-27 03:27:09,147 [INFO]   -> 306 matchs -> flashscore_data\matches_ligue_1.csv
+2026-02-27 03:27:09,147 [INFO] ============================================================
+2026-02-27 03:27:09,147 [INFO] Ligue: LA_LIGA  (10 equipes)
+2026-02-27 03:27:09,147 [INFO] ============================================================
+2026-02-27 03:27:09,160 [INFO] Equipe: Real Madrid
+2026-02-27 03:27:09,160 [INFO]   Squad -> https://www.flashscore.com/team/real-madrid/W8mj7MDD/squad/
+2026-02-27 03:27:11,460 [INFO]   -> 39 joueurs trouves pour Real Madrid
+2026-02-27 03:31:08,449 [INFO] Equipe: Barcelona
+2026-02-27 03:31:08,450 [INFO]   Squad -> https://www.flashscore.com/team/barcelona/SKbpVP5K/squad/
+2026-02-27 03:31:12,288 [INFO]   -> 32 joueurs trouves pour Barcelona
+2026-02-27 03:34:37,840 [INFO] Equipe: Atletico Madrid
+2026-02-27 03:34:37,841 [INFO]   Squad -> https://www.flashscore.com/team/atl-madrid/jaarqpLQ/squad/
+2026-02-27 03:34:40,506 [INFO]   -> 38 joueurs trouves pour Atletico Madrid
+2026-02-27 03:38:33,886 [INFO] Equipe: Villarreal
+2026-02-27 03:38:33,887 [INFO]   Squad -> https://www.flashscore.com/team/villarreal/lUatW5jE/squad/
+2026-02-27 03:38:38,002 [INFO]   -> 34 joueurs trouves pour Villarreal
+2026-02-27 03:42:04,948 [INFO] Equipe: Athletic Club
+2026-02-27 03:42:04,949 [INFO]   Squad -> https://www.flashscore.com/team/ath-bilbao/IP5zl0cJ/squad/
+2026-02-27 03:42:08,268 [INFO]   -> 39 joueurs trouves pour Athletic Club
