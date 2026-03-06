@@ -1,0 +1,158 @@
+# Experiment Configuration and Tracking
+
+experiment:
+  id: v3_player_features_tuning_2024
+  version: 3.0
+  date: 2024-03-06
+  description: |
+    Football Match Outcome Prediction - Enhanced Version
+
+    Objectives:
+    1. Reorganize project structure for improved maintainability
+    2. Add player-level squad features for better predictions
+    3. Implement hyperparameter tuning for model optimization
+    4. Test Gradient Boosting models (XGBoost, LightGBM, CatBoost)
+    5. Create ensemble models for improved accuracy
+    6. Target: Achieve 55-65% accuracy (baseline: 49.5%)
+
+  author: Football BI/IA Team
+  contact: team@example.com
+
+# Data configuration
+data:
+  source:
+    path: data/raw/football_bi/matches_raw.csv
+    format: csv
+
+  processed:
+    path: data/processed/football_bi/
+    matches_clean: matches_clean.csv
+    match_features: match_features.csv
+
+  leagues:
+    - EPL
+    - LaLiga
+    - SerieA
+    - Bundesliga
+    - Ligue1
+
+  time_range:
+    start_date: "1993-07-23"
+    end_date: "2026-02-15"
+    total_matches: 58467
+
+  test_years: [2024, 2025]  # Test set covers 2024-2025 season
+
+# Feature engineering pipeline
+features:
+  base:
+    enabled: true
+    description: "Elo rating + rolling statistics (existing)"
+
+  player:
+    enabled: true
+    description: "Player-level squad features (NEW)"
+    data_sources:
+      - player_profiles  # Age, position, market value
+      - ml_team_features  # Squad composition
+      - injury_history  # Injuries/suspensions
+
+  advanced:
+    enabled: true
+    description: "Interaction and polynomial features (NEW)"
+    expected_impact: "+1-2% accuracy"
+
+  total_expected_features: 40  # 23 base + 12 player + 5 advanced
+
+# Model pipeline
+models:
+  baseline_models: [logistic_regression, random_forest, extra_trees]
+
+  new_models: [xgboost, lightgbm, catboost]
+
+  tuning:
+    enabled: true
+    method: random_search
+    iterations: 100
+    cv_splits: 5_temporal
+    expected_improvement: "+3-5% accuracy"
+
+  ensemble:
+    stacking:
+      enabled: true
+      expected_improvement: "+1-2% accuracy"
+    voting:
+      enabled: true
+      expected_improvement: "+0.5-1% accuracy"
+
+# Performance targets
+targets:
+  baseline_accuracy: 0.495
+  baseline_f1_macro: 0.421
+  baseline_log_loss: 1.083
+
+  phase_1_target: 0.51  # After player features
+  phase_2_target: 0.54  # After new models
+  phase_3_target: 0.57  # After tuning
+  phase_4_target: 0.60  # After ensemble
+
+  final_minimum: 0.55  # Must beat this threshold
+  final_target: 0.60  # Ideal target
+  final_stretch: 0.65  # Ambitious target
+
+quality_metrics:
+  no_temporal_leakage: true
+  f1_macro_improvement: "+5-10%"
+  per_class_f1_improvement: true
+  probability_calibration: "log_loss < 1.0"
+
+# Logging and tracking
+logging:
+  level: INFO
+  log_file: logs/experiment_v3.log
+  console_output: true
+
+tracking:
+  save_predictions: true
+  save_model_artifacts: true
+  save_tuning_results: true
+  save_feature_importance: true
+  generate_reports: true
+
+  output_paths:
+    predictions: reports/v3/predictions/
+    models: models/football_bi/v3/
+    tuning: reports/v3/tuning_results/
+    features: reports/v3/feature_importance/
+    reports: reports/v3/
+
+# Reproducibility
+reproducibility:
+  random_state: 42
+  set_seed: true
+  git_commit: "To be filled during execution"
+  data_hash: "To be computed during pipeline run"
+
+# Success criteria
+success_criteria:
+  - accuracy: ">= 0.55"
+  - f1_macro: ">= 0.50"
+  - log_loss: "< 1.0"
+  - no_temporal_leakage: "true"
+  - code_coverage: ">= 80%"
+  - documentation: ">= 80% complete"
+  - all_tests_passing: "true"
+
+# Notes
+notes: |
+  This experiment builds on the previous version (v2) which achieved 49.5% accuracy.
+
+  Key improvements in v3:
+  1. Player statistics integration - provides new signal for predictions
+  2. Gradient Boosting algorithms - typically superior to tree ensembles
+  3. Systematic hyperparameter optimization - replaces default parameters
+  4. Meta-learning ensembles - captures complementary model strengths
+  5. Comprehensive testing and validation - ensures data integrity
+
+  Expected runtime: 3-4 weeks for full implementation
+  Parallelization: Hyperparameter tuning will be CPU-intensive

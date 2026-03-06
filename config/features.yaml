@@ -1,0 +1,111 @@
+# Feature Engineering Configuration
+
+features:
+  # Base Elo and rolling statistics (existing)
+  base:
+    enabled: true
+    elo:
+      k_factor: 20
+      home_advantage: 60
+      initial_rating: 1500.0
+      seasonal_reset_rate: 0.75
+    rolling:
+      window_size: 5
+      seasonal_reset: true
+    temporal:
+      month: true
+      weekday: true
+      season_year: true
+
+  # Player-level squad features (NEW)
+  player:
+    enabled: true
+    squad_aggregations:
+      - squad_avg_age
+      - squad_median_age
+      - squad_market_value_sum
+      - squad_market_value_avg
+      - squad_size
+      - num_goalkeepers
+      - num_defenders
+      - num_midfielders
+      - num_forwards
+      - injury_count
+      - injury_rate
+    squad_balance:
+      - def_mid_ratio
+      - mid_fwd_ratio
+      - avg_contract_length
+
+  # Advanced interaction and polynomial features (NEW)
+  advanced:
+    enabled: true
+    interactions:
+      - form_product: "recent_points_home * recent_points_away"
+      - elo_form_product: "elo_diff * recent_points_avg"
+      - rest_disparity: "abs(rest_days_home - rest_days_away)"
+      - injury_impact: "injury_rate_home - injury_rate_away"
+    temporal_advanced:
+      - match_quarter
+      - is_season_beginning
+      - is_season_end
+      - days_since_last_match
+    polynomials:
+      enabled: false
+      features:
+        - elo_diff_squared
+        - ppg_diff_squared
+
+# Feature list management
+numeric_features_base:
+  - home_elo_pre
+  - away_elo_pre
+  - elo_diff
+  - home_matches_played_pre
+  - away_matches_played_pre
+  - home_points_per_game_pre
+  - away_points_per_game_pre
+  - ppg_diff
+  - home_goal_diff_per_game_pre
+  - away_goal_diff_per_game_pre
+  - goal_diff_pg_diff
+  - home_recent_points_avg_pre
+  - away_recent_points_avg_pre
+  - recent_points_diff
+  - home_recent_goal_diff_avg_pre
+  - away_recent_goal_diff_avg_pre
+  - recent_goal_diff_diff
+  - home_rest_days_pre
+  - away_rest_days_pre
+  - rest_days_diff
+  - month
+  - weekday
+
+categorical_features_base:
+  - league_code
+  - home_team
+  - away_team
+
+# Preprocessing configuration
+preprocessing:
+  scaling:
+    method: StandardScaler  # Options: StandardScaler, RobustScaler, MinMaxScaler
+    numeric_features: true
+    categorical_features: false
+
+  imputation:
+    strategy: hierarchical  # Options: hierarchical, knn, forward_fill
+    hierarchical_order:
+      - league
+      - season
+      - global
+    knn_neighbors: 5
+
+  outlier_detection:
+    enabled: false
+    method: IQR  # Interquartile Range, non-destructive
+    threshold: 3.0
+
+  leakage_check:
+    enabled: true
+    strict_mode: false  # If true, raise error on leakage; else warn

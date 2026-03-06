@@ -38,7 +38,7 @@ class ProjectPaths:
 
 def get_default_paths() -> ProjectPaths:
     root = Path(__file__).resolve().parents[2]
-    source = root / "data" / "Scrapping" / "football-datasets-main" / "football-datasets-main" / "datasets"
+    source = root / "data" / "Scrapping" / "football-datasets-main-v1" / "datasets"
     raw_dir = root / "data" / "raw" / "football_bi"
     processed_dir = root / "data" / "processed" / "football_bi"
     reports_dir = root / "reports" / "football_bi"

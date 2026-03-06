@@ -191,7 +191,8 @@ Pour se rapprocher de 75%, il faut ajouter des donnees exogenes fortes:
 
 
 ## api server 
-(.venv) PS C:\Users\Amin\Desktop\TEK-UP\football-match-prediction> python code\09_run_api.py
+(.venv) PS C:\Users\Amin\Desktop\TEK-UP\football-match-prediction> 
+python code\09_run_api.py
 ## node js interface v0
 (.venv) PS C:\Users\Amin\Desktop\TEK-UP\football-match-prediction\interface\b_65PkRuwmNDh-1771889902461> npm run dev
 ## interface normale 
@@ -203,3 +204,6 @@ Pour se rapprocher de 75%, il faut ajouter des donnees exogenes fortes:
 ## lancer le scrapping 
 python flashscore_scraper_v2.py --leagues la_liga --train
 python flashscore_scraper_v2.py --leagues all --train
+
+## lancer le pipline 
+.venv\Scripts\python.exe code/08_run_all.py --simulations 300
