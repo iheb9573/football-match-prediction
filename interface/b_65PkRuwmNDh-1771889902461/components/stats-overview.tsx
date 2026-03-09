@@ -1,8 +1,10 @@
 ﻿'use client'
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts'
-
+import {
+  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
+  ResponsiveContainer, PieChart, Pie, Cell
+} from 'recharts'
 import { EMPTY_STATISTICS, type StatisticsPayload } from '@/lib/statistics'
 
 interface StatsOverviewProps {
@@ -11,48 +13,59 @@ interface StatsOverviewProps {
 
 const COLORS = ['#3b82f6', '#8b5cf6', '#ef4444', '#f59e0b', '#10b981']
 
+const tooltipStyle = {
+  contentStyle: {
+    backgroundColor: 'var(--card)',
+    border: '1px solid var(--border)',
+    borderRadius: '8px',
+    color: 'var(--foreground)',
+  },
+}
+
 export function StatsOverview({ statistics }: StatsOverviewProps) {
   const stats = statistics || EMPTY_STATISTICS
 
   return (
     <div className="grid gap-6">
-      <Card>
+      {/* Model Performance */}
+      <Card className="bg-card border-border">
         <CardHeader>
-          <CardTitle className="text-lg">Performance du Modele</CardTitle>
+          <CardTitle className="text-lg text-foreground">Performance du Modèle (Extra Trees)</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-4 rounded-lg">
-              <p className="text-sm text-gray-600 mb-1">Precision</p>
-              <p className="text-2xl font-bold text-blue-700">{(stats.modelPerformance.precision * 100).toFixed(1)}%</p>
-            </div>
-            <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-4 rounded-lg">
-              <p className="text-sm text-gray-600 mb-1">Rappel</p>
-              <p className="text-2xl font-bold text-purple-700">{(stats.modelPerformance.recall * 100).toFixed(1)}%</p>
-            </div>
-            <div className="bg-gradient-to-br from-pink-50 to-pink-100 p-4 rounded-lg">
-              <p className="text-sm text-gray-600 mb-1">F1 Score</p>
-              <p className="text-2xl font-bold text-pink-700">{(stats.modelPerformance.f1Score * 100).toFixed(1)}%</p>
-            </div>
-            <div className="bg-gradient-to-br from-green-50 to-green-100 p-4 rounded-lg">
-              <p className="text-sm text-gray-600 mb-1">AUC-ROC</p>
-              <p className="text-2xl font-bold text-green-700">{(stats.modelPerformance.auc_roc * 100).toFixed(1)}%</p>
-            </div>
+            {[
+              { label: 'Précision', value: stats.modelPerformance.precision, color: 'blue' },
+              { label: 'Rappel', value: stats.modelPerformance.recall, color: 'purple' },
+              { label: 'F1 Score', value: stats.modelPerformance.f1Score, color: 'pink' },
+              { label: 'AUC-ROC', value: stats.modelPerformance.auc_roc, color: 'green' },
+            ].map(({ label, value, color }) => (
+              <div
+                key={label}
+                className={`bg-${color}-500/10 dark:bg-${color}-500/15 p-4 rounded-lg border border-${color}-500/20`}
+              >
+                <p className="text-sm text-muted-foreground mb-1">{label}</p>
+                <p className={`text-2xl font-bold text-${color}-600 dark:text-${color}-400`}>
+                  {(value * 100).toFixed(1)}%
+                </p>
+              </div>
+            ))}
           </div>
         </CardContent>
       </Card>
 
-      <Card>
+      {/* Accuracy by League */}
+      <Card className="bg-card border-border">
         <CardHeader>
-          <CardTitle className="text-lg">Precision par Ligue</CardTitle>
+          <CardTitle className="text-lg text-foreground">Précision par Ligue</CardTitle>
         </CardHeader>
         <CardContent>
           <ResponsiveContainer width="100%" height={300}>
             <BarChart data={stats.accuracyByLeague}>
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="league" fontSize={12} />
-              <YAxis domain={[0, 1]} fontSize={12} />
-              <Tooltip formatter={(value) => `${(Number(value) * 100).toFixed(1)}%`} />
+              <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" />
+              <XAxis dataKey="league" fontSize={12} tick={{ fill: 'var(--muted-foreground)' }} />
+              <YAxis domain={[0, 1]} fontSize={12} tick={{ fill: 'var(--muted-foreground)' }} />
+              <Tooltip {...tooltipStyle} formatter={(value) => `${(Number(value) * 100).toFixed(1)}%`} />
               <Bar dataKey="accuracy" fill="#3b82f6" radius={[8, 8, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
@@ -60,9 +73,10 @@ export function StatsOverview({ statistics }: StatsOverviewProps) {
       </Card>
 
       <div className="grid md:grid-cols-2 gap-6">
-        <Card>
+        {/* Prediction Distribution */}
+        <Card className="bg-card border-border">
           <CardHeader>
-            <CardTitle className="text-lg">Distribution des Predictions</CardTitle>
+            <CardTitle className="text-lg text-foreground">Distribution des Prédictions</CardTitle>
           </CardHeader>
           <CardContent>
             <ResponsiveContainer width="100%" height={250}>
@@ -75,53 +89,55 @@ export function StatsOverview({ statistics }: StatsOverviewProps) {
                   labelLine={false}
                   label={({ type, percentage }) => `${type}: ${percentage}%`}
                   outerRadius={80}
-                  fill="#8884d8"
                   dataKey="percentage"
                 >
                   {stats.predictionDistribution.map((_, index) => (
                     <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                   ))}
                 </Pie>
+                <Tooltip {...tooltipStyle} />
               </PieChart>
             </ResponsiveContainer>
           </CardContent>
         </Card>
 
-        <Card>
+        {/* Confidence Analysis */}
+        <Card className="bg-card border-border">
           <CardHeader>
-            <CardTitle className="text-lg">Analyse de Confiance</CardTitle>
+            <CardTitle className="text-lg text-foreground">Analyse de Confiance</CardTitle>
           </CardHeader>
           <CardContent>
             <ResponsiveContainer width="100%" height={250}>
               <BarChart data={stats.confidenceAnalysis}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="confidenceRange" fontSize={10} />
-                <YAxis fontSize={12} />
-                <Tooltip />
-                <Legend />
+                <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" />
+                <XAxis dataKey="confidenceRange" fontSize={10} tick={{ fill: 'var(--muted-foreground)' }} />
+                <YAxis fontSize={12} tick={{ fill: 'var(--muted-foreground)' }} />
+                <Tooltip {...tooltipStyle} />
+                <Legend wrapperStyle={{ color: 'var(--muted-foreground)' }} />
                 <Bar dataKey="count" fill="#3b82f6" name="Matchs" />
-                <Bar dataKey="accuracy" fill="#10b981" name="Precision" />
+                <Bar dataKey="accuracy" fill="#10b981" name="Précision" />
               </BarChart>
             </ResponsiveContainer>
           </CardContent>
         </Card>
       </div>
 
-      <Card>
+      {/* Feature Importance */}
+      <Card className="bg-card border-border">
         <CardHeader>
-          <CardTitle className="text-lg">Importance des Features</CardTitle>
+          <CardTitle className="text-lg text-foreground">Importance des Features (Permutation)</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="space-y-3">
             {stats.topFeatures.map((feature, idx) => (
               <div key={idx} className="space-y-1">
                 <div className="flex justify-between text-sm">
-                  <span className="font-medium">{feature.feature}</span>
-                  <span className="text-gray-600">{(feature.importance * 100).toFixed(1)}%</span>
+                  <span className="font-medium text-foreground">{feature.feature}</span>
+                  <span className="text-muted-foreground">{(feature.importance * 100).toFixed(1)}%</span>
                 </div>
-                <div className="w-full bg-gray-200 rounded-full h-2">
+                <div className="w-full bg-muted rounded-full h-2">
                   <div
-                    className="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full"
+                    className="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full transition-all duration-500"
                     style={{ width: `${feature.importance * 100}%` }}
                   />
                 </div>
@@ -131,28 +147,29 @@ export function StatsOverview({ statistics }: StatsOverviewProps) {
         </CardContent>
       </Card>
 
-      <Card>
+      {/* League Stats Table */}
+      <Card className="bg-card border-border">
         <CardHeader>
-          <CardTitle className="text-lg">Statistiques par Ligue</CardTitle>
+          <CardTitle className="text-lg text-foreground">Statistiques par Ligue</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead className="border-b">
+              <thead className="border-b border-border">
                 <tr>
-                  <th className="text-left py-2 px-2">Ligue</th>
-                  <th className="text-right py-2 px-2">Matchs</th>
-                  <th className="text-right py-2 px-2">Avg Buts</th>
-                  <th className="text-right py-2 px-2">Avg Cotes</th>
+                  <th className="text-left py-2 px-2 text-muted-foreground">Ligue</th>
+                  <th className="text-right py-2 px-2 text-muted-foreground">Matchs</th>
+                  <th className="text-right py-2 px-2 text-muted-foreground">Avg Buts</th>
+                  <th className="text-right py-2 px-2 text-muted-foreground">Avg Cotes</th>
                 </tr>
               </thead>
               <tbody>
                 {stats.leagueStats.map((stat, idx) => (
-                  <tr key={idx} className="border-b hover:bg-gray-50">
-                    <td className="py-3 px-2 font-medium">{stat.league}</td>
-                    <td className="text-right py-3 px-2">{stat.totalMatches}</td>
-                    <td className="text-right py-3 px-2">{stat.avgGoals.toFixed(2)}</td>
-                    <td className="text-right py-3 px-2">{stat.avgOdds.toFixed(2)}</td>
+                  <tr key={idx} className="border-b border-border/50 hover:bg-muted/40 transition-colors">
+                    <td className="py-3 px-2 font-medium text-foreground">{stat.league}</td>
+                    <td className="text-right py-3 px-2 text-muted-foreground">{stat.totalMatches}</td>
+                    <td className="text-right py-3 px-2 text-muted-foreground">{stat.avgGoals.toFixed(2)}</td>
+                    <td className="text-right py-3 px-2 text-muted-foreground">{stat.avgOdds.toFixed(2)}</td>
                   </tr>
                 ))}
               </tbody>

@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import { Navbar } from '@/components/navbar'
+import { ThemeProvider } from '@/components/theme-provider'
+import { Chatbot } from '@/components/chatbot'
 
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
@@ -36,13 +38,21 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="fr">
-      <body className="font-sans antialiased bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
-        <Navbar />
-        <div className="min-h-screen">
-          {children}
-        </div>
-        <Analytics />
+    <html lang="fr" suppressHydrationWarning>
+      <body className="font-sans antialiased bg-background text-foreground transition-colors duration-300">
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem={false}
+          disableTransitionOnChange={false}
+        >
+          <Navbar />
+          <div className="min-h-screen">
+            {children}
+          </div>
+          <Chatbot />
+          <Analytics />
+        </ThemeProvider>
       </body>
     </html>
   )

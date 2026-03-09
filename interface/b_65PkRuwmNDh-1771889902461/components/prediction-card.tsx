@@ -56,38 +56,47 @@ export function PredictionCard({
     minute: '2-digit'
   })
 
+  const confidencePct = Math.round(confidence * 100)
   const confidenceColor =
-    confidence >= 0.85 ? 'bg-green-500/20 text-green-700' :
-    confidence >= 0.75 ? 'bg-blue-500/20 text-blue-700' :
-    'bg-yellow-500/20 text-yellow-700'
+    confidence >= 0.85 ? 'bg-green-500/15 text-green-600 dark:text-green-400 border-green-500/30' :
+      confidence >= 0.75 ? 'bg-blue-500/15 text-blue-600 dark:text-blue-400 border-blue-500/30' :
+        'bg-amber-500/15 text-amber-600 dark:text-amber-400 border-amber-500/30'
 
   return (
-    <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+    <Card className="overflow-hidden hover:shadow-xl dark:hover:shadow-blue-900/20 transition-all duration-300 bg-card border-border">
       <CardHeader className="pb-3">
         <div className="flex items-start justify-between mb-2">
           <div className="flex-1">
-            <CardTitle className="text-lg">{match.homeTeam} vs {match.awayTeam}</CardTitle>
-            <CardDescription className="text-xs mt-1">
+            <CardTitle className="text-lg text-foreground">{match.homeTeam} vs {match.awayTeam}</CardTitle>
+            <CardDescription className="text-xs mt-1 text-muted-foreground">
               {match.league} • {match.stadium}
             </CardDescription>
           </div>
           <Badge className={confidenceColor} variant="outline">
-            {Math.round(confidence * 100)}%
+            {confidencePct}%
           </Badge>
         </div>
-        <CardDescription>{matchDate}</CardDescription>
+        <CardDescription className="text-muted-foreground">{matchDate}</CardDescription>
       </CardHeader>
 
       <CardContent className="space-y-4">
         {/* Probability Chart */}
         <div className="space-y-2">
-          <p className="text-sm font-semibold">Probabilités de résultat</p>
+          <p className="text-sm font-semibold text-foreground">Probabilités de résultat</p>
           <ResponsiveContainer width="100%" height={120}>
             <BarChart data={chartData}>
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(0,0,0,0.1)" />
-              <XAxis dataKey="name" fontSize={12} />
-              <YAxis fontSize={12} domain={[0, 100]} />
-              <Tooltip formatter={(value) => `${value}%`} />
+              <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" />
+              <XAxis dataKey="name" fontSize={12} tick={{ fill: 'var(--muted-foreground)' }} />
+              <YAxis fontSize={12} tick={{ fill: 'var(--muted-foreground)' }} domain={[0, 100]} />
+              <Tooltip
+                contentStyle={{
+                  backgroundColor: 'var(--card)',
+                  border: '1px solid var(--border)',
+                  borderRadius: '8px',
+                  color: 'var(--foreground)'
+                }}
+                formatter={(value) => `${value}%`}
+              />
               <Bar dataKey="value" radius={[4, 4, 0, 0]}>
                 {chartData.map((_, index) => (
                   <Cell key={`cell-${index}`} fill={COLORS[index]} />
@@ -99,64 +108,60 @@ export function PredictionCard({
 
         {/* xG */}
         <div className="grid grid-cols-2 gap-2 text-sm">
-          <div className="bg-blue-50 p-2 rounded">
-            <p className="text-xs text-gray-600">xG Domicile</p>
-            <p className="font-semibold text-blue-700">{xG_home.toFixed(2)}</p>
+          <div className="bg-blue-500/10 dark:bg-blue-500/15 p-2 rounded border border-blue-500/20">
+            <p className="text-xs text-muted-foreground">xG Domicile</p>
+            <p className="font-semibold text-blue-600 dark:text-blue-400">{xG_home.toFixed(2)}</p>
           </div>
-          <div className="bg-red-50 p-2 rounded">
-            <p className="text-xs text-gray-600">xG Extérieur</p>
-            <p className="font-semibold text-red-700">{xG_away.toFixed(2)}</p>
+          <div className="bg-red-500/10 dark:bg-red-500/15 p-2 rounded border border-red-500/20">
+            <p className="text-xs text-muted-foreground">xG Extérieur</p>
+            <p className="font-semibold text-red-600 dark:text-red-400">{xG_away.toFixed(2)}</p>
           </div>
         </div>
 
         {/* Team Ratings */}
         <div className="grid grid-cols-2 gap-2 text-xs">
           <div>
-            <p className="font-semibold mb-1 text-blue-700">{match.homeTeam}</p>
+            <p className="font-semibold mb-1 text-blue-600 dark:text-blue-400">{match.homeTeam}</p>
             <div className="space-y-1">
-              <div className="flex justify-between">
-                <span className="text-gray-600">Forme:</span>
-                <span className="font-medium">{features.homeFormRating.toFixed(1)}/5</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-gray-600">Attaque:</span>
-                <span className="font-medium">{features.homeAttack.toFixed(1)}/10</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-gray-600">Défense:</span>
-                <span className="font-medium">{features.homeDefense.toFixed(1)}/10</span>
-              </div>
+              {[
+                { label: 'Forme:', value: `${features.homeFormRating.toFixed(1)}/5` },
+                { label: 'Attaque:', value: `${features.homeAttack.toFixed(1)}/10` },
+                { label: 'Défense:', value: `${features.homeDefense.toFixed(1)}/10` },
+              ].map(({ label, value }) => (
+                <div key={label} className="flex justify-between">
+                  <span className="text-muted-foreground">{label}</span>
+                  <span className="font-medium text-foreground">{value}</span>
+                </div>
+              ))}
             </div>
           </div>
           <div>
-            <p className="font-semibold mb-1 text-red-700">{match.awayTeam}</p>
+            <p className="font-semibold mb-1 text-red-600 dark:text-red-400">{match.awayTeam}</p>
             <div className="space-y-1">
-              <div className="flex justify-between">
-                <span className="text-gray-600">Forme:</span>
-                <span className="font-medium">{features.awayFormRating.toFixed(1)}/5</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-gray-600">Attaque:</span>
-                <span className="font-medium">{features.awayAttack.toFixed(1)}/10</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-gray-600">Défense:</span>
-                <span className="font-medium">{features.awayDefense.toFixed(1)}/10</span>
-              </div>
+              {[
+                { label: 'Forme:', value: `${features.awayFormRating.toFixed(1)}/5` },
+                { label: 'Attaque:', value: `${features.awayAttack.toFixed(1)}/10` },
+                { label: 'Défense:', value: `${features.awayDefense.toFixed(1)}/10` },
+              ].map(({ label, value }) => (
+                <div key={label} className="flex justify-between">
+                  <span className="text-muted-foreground">{label}</span>
+                  <span className="font-medium text-foreground">{value}</span>
+                </div>
+              ))}
             </div>
           </div>
         </div>
 
         {/* H2H */}
-        <div className="text-xs bg-purple-50 p-2 rounded border border-purple-200">
-          <p className="text-gray-600">Historique</p>
-          <p className="font-semibold text-purple-700">{features.headToHead}</p>
+        <div className="text-xs bg-purple-500/10 dark:bg-purple-500/15 p-2 rounded border border-purple-500/20">
+          <p className="text-muted-foreground">Historique</p>
+          <p className="font-semibold text-purple-600 dark:text-purple-400">{features.headToHead}</p>
         </div>
 
         {/* Prediction Badge */}
-        <div className="flex items-center justify-between bg-gradient-to-r from-blue-50 to-blue-100 p-3 rounded-lg">
-          <span className="text-sm font-medium">Prédiction:</span>
-          <Badge className="text-lg px-3 py-1">
+        <div className="flex items-center justify-between bg-gradient-to-r from-blue-500/10 to-purple-500/10 dark:from-blue-500/20 dark:to-purple-500/20 p-3 rounded-lg border border-blue-500/20">
+          <span className="text-sm font-medium text-foreground">Prédiction ML:</span>
+          <Badge className="text-sm px-3 py-1 bg-primary text-primary-foreground">
             {prediction === 'H' ? '🏠 Domicile' : prediction === 'D' ? '🤝 Match Nul' : '✈️ Extérieur'}
           </Badge>
         </div>
