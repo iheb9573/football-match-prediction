@@ -379,6 +379,46 @@ function getExplainResponse(message: string): string {
     return EXPLAIN_RESPONSES.default
 }
 
+// ─── Gemini LLM Generator ──────────────────────────────────────────────────────
+async function generateGeminiResponse(userMessage: string, contextData: string, intent: string): Promise<string> {
+    const apiKey = 'AIzaSyBllfvI7cCBBZp6P8eJGgv2pDRYzOdGJxg'
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`
+
+    let promptText = ''
+    if (intent === 'unknown' || intent === 'greeting' || !contextData) {
+        promptText = `Tu es "Football BI Chatbot", un expert en football et data science, intégré à une plateforme qui utilise un modèle Extra Trees et des simulations Monte Carlo. L'utilisateur te dit : "${userMessage}". Réponds de manière utile, polie et très concise. Utilise du Markdown (gras, emojis). Si c'est pour une prédiction en direct, rappelle-lui le format : "Prédis Equipe A vs Equipe B en [Ligue]".`
+    } else {
+        promptText = `Tu es "Football BI Chatbot", l'assistant IA d'une plateforme de prédiction footballistique.
+L'utilisateur a demandé : "${userMessage}"
+Intention détectée par le backend : ${intent}
+
+Voici les données brutes extraites par le système interne (Modèles ML locaux, CSV) :
+---
+${contextData}
+---
+
+MISSION : Formule une belle réponse naturelle, claire et engageante pour l'utilisateur en te basant STRICTEMENT sur ces données brutes. 
+- N'invente pas de statistiques ou de prédictions, tu dois utiliser uniquement celles du texte ci-dessus.
+- Met en valeur les probabilités, la confiance du modèle et les scores avec du gras et des emojis.
+- Utilise des listes à puces si c'est pertinent.
+- Ne commence pas par "Voici la réponse", réponds directement comme si tu venais de faire l'analyse.
+`
+    }
+
+    try {
+        const res = await fetch(url, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ contents: [{ role: 'user', parts: [{ text: promptText }] }] })
+        })
+        const data = await res.json()
+        return data?.candidates?.[0]?.content?.parts?.[0]?.text || contextData || "Désolé, problème de génération."
+    } catch (e) {
+        console.error("Gemini:", e)
+        return contextData || "Erreur IA."
+    }
+}
+
 // ─── Main handler ──────────────────────────────────────────────────────────────
 export async function POST(request: NextRequest) {
     try {
@@ -460,7 +500,10 @@ export async function POST(request: NextRequest) {
                 reply = `⚽ Je suis spécialisé en **football et prédiction de matchs**.\n\nVoici ce que je sais faire :\n- *"Prédis Arsenal vs Chelsea en EPL"* → prédiction ML\n- *"Champion de la Premier League ?"* → probabilités Monte Carlo\n- *"Stats du modèle"* → métriques Extra Trees\n- *"Historique de Arsenal"* → données CSV locales\n- *"Joueurs du Real Madrid"* → effectif depuis le web\n- *"Comment fonctionne l'ELO ?"* → explication`
         }
 
-        return NextResponse.json({ reply, intent })
+        // On passe les données locales (reply) et le message utilisateur à Gemini
+        const finalReply = await generateGeminiResponse(message, reply, intent)
+
+        return NextResponse.json({ reply: finalReply, intent })
     } catch (error) {
         console.error('Chat error:', error)
         return NextResponse.json(
